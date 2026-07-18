@@ -1,10 +1,21 @@
 portussophia:
   template_version: "1.0.0"
   asset_origin: "https://assets.portussophia.com"
-  asset_version: "20260718-1"
+  asset_version: "20260718-2"
+
+  # Compact header: internal pages.
   header_label: "PortusSophia™"
   header_role: "Public research interface"
+
+  # Identity header: home and primary landing pages.
+  identity_logo_url: "https://assets.portussophia.com/img/site/logo.png"
+  identity_logo_alt: "PortusSophia programme mark"
+  identity_title: "PortusSophia™"
+  identity_declaration: "A candidate field architecture for abstract epistemic discipline."
+
   rights_url: "/RIGHTS.md"
 
+# A page using layout: home receives the identity header by default.
+# Set header_variant: compact or header_variant: identity in page front matter to override.
 # The site owns its content, navigation data, footer data, and declared local overrides.
 # The shared shell owns the common visible grammar.
