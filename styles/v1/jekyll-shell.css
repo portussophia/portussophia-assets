@@ -13,6 +13,7 @@
   background-size: 6px 6px;
 }
 
+/* Compact header: internal pages. */
 .header-inner {
   min-height: 5.25rem;
 }
@@ -24,6 +25,60 @@
 
 .site-header .site-role {
   color: var(--ps-grey, #cccccc);
+}
+
+/* Identity header: primary landing pages. */
+.identity-header-inner {
+  display: grid;
+  grid-template-columns: minmax(7rem, 9rem) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+  min-height: clamp(18rem, 26vw, 22rem);
+  padding-block: clamp(2.75rem, 6vw, 4.75rem);
+}
+
+.identity-header-logo {
+  display: block;
+  width: clamp(7rem, 10vw, 9rem);
+  height: auto;
+  margin: 0;
+}
+
+.identity-header-copy {
+  min-width: 0;
+  transform: translateY(-0.65rem);
+}
+
+.identity-title-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 3.25rem;
+  align-items: start;
+  gap: clamp(1rem, 2vw, 1.75rem);
+}
+
+.identity-header-title {
+  max-width: none;
+  margin: 0;
+  color: var(--parchment, #faf8f5);
+  font-family: var(--sans, system-ui, sans-serif);
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 720;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.identity-header-declaration {
+  max-width: 46rem;
+  margin: clamp(1rem, 2vw, 1.4rem) 0 0;
+  color: var(--parchment, #faf8f5);
+  font-family: var(--serif, Georgia, serif);
+  font-size: clamp(1.12rem, 2.15vw, 1.55rem);
+  line-height: 1.45;
+}
+
+.identity-title-row .anchor-menu {
+  align-self: start;
+  margin-top: -0.35rem;
 }
 
 .anchor-menu {
@@ -207,12 +262,42 @@
 }
 
 @media (max-width: 52rem) {
+  .identity-header-inner {
+    grid-template-columns: minmax(6rem, 7.5rem) minmax(0, 1fr);
+    min-height: 16rem;
+  }
+
+  .identity-header-title {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+  }
+
   .footer-directory {
     grid-template-columns: 1fr;
   }
 
   .footer-panels {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 40rem) {
+  .identity-header-inner {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    min-height: 0;
+    padding-block: 2.25rem 2.75rem;
+  }
+
+  .identity-header-logo {
+    width: 6.5rem;
+  }
+
+  .identity-header-copy {
+    transform: none;
+  }
+
+  .identity-header-title {
+    font-size: clamp(2.4rem, 12vw, 3.4rem);
   }
 }
 
