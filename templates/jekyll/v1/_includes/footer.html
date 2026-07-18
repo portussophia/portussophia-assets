@@ -3,7 +3,10 @@
 {%- assign rights_url = footer.rights.url | default: ps.rights_url | default: 'https://assets.portussophia.com/RIGHTS.md' -%}
 {%- assign rights_label = footer.rights.label | default: 'Rights and Use' -%}
 {%- assign copyright_owner = footer.rights.owner | default: 'PortusSophia, LLC' -%}
-{%- assign copyright_year = footer.rights.year | default: site.time | date: '%Y' -%}
+{%- assign copyright_year = footer.rights.year -%}
+{%- unless copyright_year -%}
+  {%- assign copyright_year = site.time | date: '%Y' -%}
+{%- endunless -%}
 <footer class="site-footer ps-sailcloth">
   <div class="shell footer-inner{% if page.footer_quiet %} is-quiet{% endif %}">
     <p class="footer-refrain"><em>{{ footer.refrain | default: 'Here and Now!' | escape }}</em></p>
