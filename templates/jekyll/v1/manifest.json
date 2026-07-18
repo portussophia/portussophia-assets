@@ -8,13 +8,16 @@
   "layouts": [
     "_layouts/default.html",
     "_layouts/home.html",
-    "_layouts/shoreline.html"
+    "_layouts/shoreline.html",
+    "_layouts/shoreline-masthead.html"
   ],
   "includes": [
     "_includes/head.html",
     "_includes/header.html",
     "_includes/header-identity.html",
     "_includes/header-compact.html",
+    "_includes/header-shoreline.html",
+    "_includes/header-shoreline-identity.html",
     "_includes/anchor-menu.html",
     "_includes/footer.html"
   ],
@@ -24,6 +27,7 @@
     "/styles/v1/jekyll-shell.css",
     "/styles/v1/jekyll-shell-polish.css",
     "/styles/v1/jekyll-shell-optical.css",
+    "/styles/v1/jekyll-shell-shoreline-identity.css",
     "/scripts/v1/navigation.js",
     "/favicons/favicon.svg"
   ],
@@ -32,6 +36,8 @@
     "gold lower header boundary on every page",
     "identity header for home and primary landing pages",
     "compact header for internal pages",
+    "shoreline masthead header for restrained photographic surfaces",
+    "shoreline identity header places the programme mark at the photographic horizon",
     "enlarged gold anchor navigation control",
     "single shared navigation tree",
     "restrained navigation hover motion with reduced-motion support",
