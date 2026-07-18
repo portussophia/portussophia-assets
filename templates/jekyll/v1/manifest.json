@@ -12,6 +12,9 @@
   "includes": [
     "_includes/head.html",
     "_includes/header.html",
+    "_includes/header-identity.html",
+    "_includes/header-compact.html",
+    "_includes/anchor-menu.html",
     "_includes/footer.html"
   ],
   "dependencies": [
@@ -24,8 +27,10 @@
   "brand_invariants": [
     "navy sailcloth header",
     "gold lower header boundary on every page",
+    "identity header for home and primary landing pages",
+    "compact header for internal pages",
     "enlarged gold anchor navigation control",
-    "single navigation tree",
+    "single shared navigation tree",
     "three-row footer",
     "programme mark and navigation anchor remain distinct"
   ]
