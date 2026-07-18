@@ -21,12 +21,28 @@ The v1 shell implements:
 - canonical shared typography and material styles;
 - canonical favicon references;
 - accessible single-source navigation;
+- a canonical `shoreline` composition that presents the photographic shoreline before a navy sailcloth content field;
 - a two-row footer:
   1. site-specific context and links;
   2. a centered closing stack containing *Here and Now!*, copyright, and Rights and Use;
 - configurable local navigation and footer data.
 
 The anchor remains a navigation symbol. It does not replace the official PortusSophia programme mark, and the programme mark does not replace the anchor.
+
+## Layouts
+
+- `default.html` provides the document shell.
+- `home.html` provides the primary identity composition.
+- `shoreline.html` provides a photographic shoreline field followed by a gold-bounded navy sailcloth content field.
+
+The shoreline layout accepts these optional front-matter values:
+
+```yaml
+shoreline_image: https://assets.portussophia.com/img/site/shoreline.jpg
+shoreline_position: center 48%
+shoreline_height: clamp(24rem, 58vh, 44rem)
+shoreline_alt: An empty shoreline extending beneath an open sky.
+```
 
 ## Contents
 
@@ -36,7 +52,8 @@ v1/
 ├── TEMPLATE-VERSION
 ├── _layouts/
 │   ├── default.html
-│   └── home.html
+│   ├── home.html
+│   └── shoreline.html
 ├── _includes/
 │   ├── head.html
 │   ├── header.html
