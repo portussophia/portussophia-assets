@@ -17,7 +17,9 @@ Every adopting surface must preserve:
 9. One navigation tree emitted once in the document.
 10. A visible skip link and `main` landmark.
 11. Canonical favicon references.
-12. A three-row footer: refrain; identity and links; copyright and rights.
+12. A two-row footer:
+    - site-specific context and links;
+    - centered closing stack containing *Here and Now!*, copyright, and Rights and Use.
 13. The official programme mark and navigation anchor remain distinct symbols.
 14. Local content and local data remain owned by the adopting site.
 
@@ -38,6 +40,7 @@ Canonical:
 - anchor navigation include;
 - shared shell CSS;
 - navigation behavior;
+- footer row structure;
 - brand material treatment;
 - accessibility structure.
 
@@ -58,5 +61,6 @@ Local:
 - Duplicating desktop and mobile navigation markup.
 - Maintaining separate navigation logic for the two header variants.
 - Hard-coding one surface's footer links into the shared include.
+- Reordering or separating the three closing statements without a documented override.
 - Calling a local site copy canonical after the shared source changes.
 - Automatically overwriting local overrides without review.
