@@ -1,44 +1,10 @@
-{%- assign ps = site.portussophia -%}
-{%- assign primary_items = site.data.nav.primary | default: empty -%}
-<header class="site-header ps-sailcloth" role="banner" data-template-version="1.0.0">
-  <div class="shell header-inner">
-    {%- if ps.header_label -%}
-      <a class="site-identity" href="{{ '/' | relative_url }}">
-        <span class="site-name">{{ ps.header_label | escape }}</span>
-        {%- if ps.header_role -%}<span class="site-role">{{ ps.header_role | escape }}</span>{%- endif -%}
-      </a>
-    {%- endif -%}
+{%- assign header_variant = page.header_variant | default: 'compact' -%}
+{%- if page.layout == 'home' and page.header_variant == nil -%}
+  {%- assign header_variant = 'identity' -%}
+{%- endif -%}
 
-    <details class="anchor-menu">
-      <summary class="home-anchor menu-trigger" aria-label="Open primary navigation">
-        <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-          <path fill="currentColor" fill-rule="evenodd" d="M32 3a8 8 0 0 0-4 14.93V23h-8v6h8v15.42c-7.07-1.55-12.55-6.32-15.14-12.56L20 29l-3-5L3 29l3 13 5.44-2.18C15.53 48.55 23.03 54 32 54s16.47-5.45 20.56-14.18L58 42l3-13-14-5-3 5 7.14 2.86C48.55 38.1 43.07 42.87 36 44.42V29h8v-6h-8v-5.07A8 8 0 0 0 32 3Zm0 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/>
-        </svg>
-        <span class="visually-hidden">Open navigation</span>
-      </summary>
-
-      <nav class="anchor-menu-panel" aria-label="Primary navigation">
-        <ul class="nav-list">
-          <li class="nav-home">
-            <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
-          </li>
-          {%- for item in primary_items -%}
-            {%- assign is_current = false -%}
-            {%- if item.external != true and page.url == item.url -%}
-              {%- assign is_current = true -%}
-            {%- elsif item.external != true and item.url != '/' and page.url contains item.url -%}
-              {%- assign is_current = true -%}
-            {%- endif -%}
-            <li{% if item.external %} class="related-surface"{% endif %}>
-              {%- if item.external -%}
-                <a href="{{ item.url }}" class="is-external" target="_blank" rel="noopener noreferrer">{{ item.label | escape }}</a>
-              {%- else -%}
-                <a href="{{ item.url | relative_url }}"{% if is_current %} aria-current="page"{% endif %}>{{ item.label | escape }}</a>
-              {%- endif -%}
-            </li>
-          {%- endfor -%}
-        </ul>
-      </nav>
-    </details>
-  </div>
-</header>
+{%- if header_variant == 'identity' -%}
+  {%- include header-identity.html -%}
+{%- else -%}
+  {%- include header-compact.html -%}
+{%- endif -%}
