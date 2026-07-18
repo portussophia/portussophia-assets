@@ -21,7 +21,9 @@ The v1 shell implements:
 - canonical shared typography and material styles;
 - canonical favicon references;
 - accessible single-source navigation;
-- a three-row footer: refrain, identity/links, then copyright/rights;
+- a two-row footer:
+  1. site-specific context and links;
+  2. a centered closing stack containing *Here and Now!*, copyright, and Rights and Use;
 - configurable local navigation and footer data.
 
 The anchor remains a navigation symbol. It does not replace the official PortusSophia programme mark, and the programme mark does not replace the anchor.
@@ -57,6 +59,8 @@ The shell also depends on:
 /styles/v1/site.css
 /styles/v1/background-sailcloth.css
 /styles/v1/jekyll-shell.css
+/styles/v1/jekyll-shell-polish.css
+/styles/v1/jekyll-shell-optical.css
 /scripts/v1/navigation.js
 /favicons/
 ```
