@@ -21,6 +21,7 @@
     "/styles/v1/site.css",
     "/styles/v1/background-sailcloth.css",
     "/styles/v1/jekyll-shell.css",
+    "/styles/v1/jekyll-shell-polish.css",
     "/scripts/v1/navigation.js",
     "/favicons/favicon.svg"
   ],
@@ -31,7 +32,11 @@
     "compact header for internal pages",
     "enlarged gold anchor navigation control",
     "single shared navigation tree",
-    "three-row footer",
+    "restrained navigation hover motion with reduced-motion support",
+    "three stacked footer bands",
+    "centered unwrapped Here and Now refrain",
+    "site-specific identity and link band",
+    "copyright and Rights and Use band",
     "programme mark and navigation anchor remain distinct"
   ]
 }
