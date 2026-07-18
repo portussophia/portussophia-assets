@@ -1,0 +1,10 @@
+portussophia:
+  template_version: "1.0.0"
+  asset_origin: "https://assets.portussophia.com"
+  asset_version: "20260718-1"
+  header_label: "PortusSophia™"
+  header_role: "Public research interface"
+  rights_url: "/RIGHTS.md"
+
+# The site owns its content, navigation data, footer data, and declared local overrides.
+# The shared shell owns the common visible grammar.
