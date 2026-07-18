@@ -22,6 +22,7 @@
     "/styles/v1/background-sailcloth.css",
     "/styles/v1/jekyll-shell.css",
     "/styles/v1/jekyll-shell-polish.css",
+    "/styles/v1/jekyll-shell-optical.css",
     "/scripts/v1/navigation.js",
     "/favicons/favicon.svg"
   ],
@@ -33,10 +34,9 @@
     "enlarged gold anchor navigation control",
     "single shared navigation tree",
     "restrained navigation hover motion with reduced-motion support",
-    "three stacked footer bands",
-    "centered unwrapped Here and Now refrain",
-    "site-specific identity and link band",
-    "copyright and Rights and Use band",
+    "two-row footer",
+    "site-specific context and links in the first row",
+    "centered Here and Now refrain, copyright, and Rights and Use in the closing row",
     "programme mark and navigation anchor remain distinct"
   ]
 }
