@@ -17,18 +17,28 @@ Every adopting surface must preserve:
 9. One navigation tree emitted once in the document.
 10. A visible skip link and `main` landmark.
 11. Canonical favicon references.
-12. A two-row footer:
+12. A canonical shoreline composition may present a photographic shoreline field before a gold-bounded navy sailcloth content field.
+13. A two-row footer:
     - site-specific context and links;
     - centered closing stack containing *Here and Now!*, copyright, and Rights and Use.
-13. The official programme mark and navigation anchor remain distinct symbols.
-14. Local content and local data remain owned by the adopting site.
+14. The official programme mark and navigation anchor remain distinct symbols.
+15. Local content and local data remain owned by the adopting site.
 
 ## Header selection
 
 - Pages using `layout: home` receive the identity header by default.
-- Internal pages receive the compact header by default.
+- Internal pages, including `layout: shoreline`, receive the compact header by default.
 - A page may explicitly declare `header_variant: identity` or `header_variant: compact`.
 - Both variants use the same `anchor-menu.html` include.
+
+## Shoreline composition
+
+- `shoreline.html` inherits `default.html`; it does not duplicate the document shell.
+- The default image source is `https://assets.portussophia.com/img/site/shoreline.jpg`, resolved through the configured asset origin.
+- The photograph remains visually distinct from the navy sailcloth content field.
+- The transition into content retains a PortusSophia gold boundary.
+- Image position, height, and accessible description may be declared in page front matter.
+- The layout must not place body copy over the photograph by default.
 
 ## Canonical versus local
 
@@ -39,6 +49,7 @@ Canonical:
 - identity and compact header structure;
 - anchor navigation include;
 - shared shell CSS;
+- shoreline composition structure;
 - navigation behavior;
 - footer row structure;
 - brand material treatment;
@@ -51,6 +62,7 @@ Local:
 - footer links;
 - surface title and role;
 - identity-header declaration;
+- shoreline image position, height, and accessible description;
 - declared page composition;
 - documented overrides.
 
@@ -62,5 +74,6 @@ Local:
 - Maintaining separate navigation logic for the two header variants.
 - Hard-coding one surface's footer links into the shared include.
 - Reordering or separating the three closing statements without a documented override.
+- Copying `default.html` to create a specialized page composition.
 - Calling a local site copy canonical after the shared source changes.
 - Automatically overwriting local overrides without review.
