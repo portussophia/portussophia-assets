@@ -1,0 +1,176 @@
+{
+  "package": "PortusSophia Brand Assets",
+  "version": "0.2",
+  "status": "controlled production candidate",
+  "official_programme_mark_replaced": false,
+  "favicon_source": "official/reference/portussophia-programme-mark-source-raster.png",
+  "favicon_standing": "faithful small-size derivative; not original vector master",
+  "asset_count": 33,
+  "assets": [
+    {
+      "path": "README.md",
+      "size_bytes": 1493,
+      "sha256": "39762b6a022eb9a473d838da15cd3b3d0177db79e162bca0c08ecb468b0c22e0"
+    },
+    {
+      "path": "brand/boards/ethica-preview.png",
+      "size_bytes": 10780,
+      "sha256": "2b82dbd5e2222b7558ba6685174b8e58612628f26899edd4ab4b3403b642f4a1"
+    },
+    {
+      "path": "brand/boards/harbor-preview.png",
+      "size_bytes": 13396,
+      "sha256": "1116cdd5e2910c6fba9b0d364dda57916cbd0eca9b0e06f847934fe4be46414c"
+    },
+    {
+      "path": "brand/boards/lumen-preview.png",
+      "size_bytes": 6766,
+      "sha256": "6abd6e272395954f49e3c67689e378f0143594f1c8e0daa02b1d443f9b1c0ae6"
+    },
+    {
+      "path": "brand/boards/ps-brand-vector-board-v0_2.png",
+      "size_bytes": 201316,
+      "sha256": "eea5e1e06cc725c9d9d176855d1ce049b09e362538fe877b5fe1e46f593f7c3e"
+    },
+    {
+      "path": "brand/boards/structura-preview.png",
+      "size_bytes": 7102,
+      "sha256": "132cb83430d638ccb1913f8a7abf60346b4b2ba21cda6dacd56752d619f434aa"
+    },
+    {
+      "path": "brand/boards/triad-preview.png",
+      "size_bytes": 35074,
+      "sha256": "0e597837215e4e5aa343cda9d4e8dbfaafe50b42d1bb44e59608089d0c3e39f8"
+    },
+    {
+      "path": "brand/icons/ps-icon-ethica-v0_2.svg",
+      "size_bytes": 913,
+      "sha256": "6a2a17586f978cc830b919b658aa07635bad5ded0a3b2165a0cd60b5c24a9c53"
+    },
+    {
+      "path": "brand/icons/ps-icon-lumen-v0_2.svg",
+      "size_bytes": 768,
+      "sha256": "feb04f28c211626fec3414374a8db5b715d19e65569473e54b55c77b36e5c46d"
+    },
+    {
+      "path": "brand/icons/ps-icon-structura-v0_2.svg",
+      "size_bytes": 679,
+      "sha256": "97c5ef2f620138dcd177c725675efdfb3271f8108cdfad1998171ac058ca5212"
+    },
+    {
+      "path": "brand/materials/ps-footer-wave-v0_2.svg",
+      "size_bytes": 635,
+      "sha256": "c4ffdda846b17bb475c18c01cf5a45d1cd8d226853b61274cbc1e9713982ba7f"
+    },
+    {
+      "path": "brand/materials/ps-sailcloth-swatch-v0_2.svg",
+      "size_bytes": 711,
+      "sha256": "44044368c3856ded74fda0e2e0076fda61a6cdca8f0a0925929b1d12fcdcf670"
+    },
+    {
+      "path": "brand/supporting-symbols/ps-support-harbor-symbol-study-v0_2.svg",
+      "size_bytes": 1107,
+      "sha256": "ab261de528dd44246a5e7286684068135366d7dd0db29177ef6de8599880638f"
+    },
+    {
+      "path": "brand/supporting-symbols/ps-support-triad-structura-ethica-lumen-v0_2.svg",
+      "size_bytes": 1326,
+      "sha256": "a988d170f1fb48754f35673435f053aa1350d1e2d88d1ffa783d9cff2c08261f"
+    },
+    {
+      "path": "docs/briefs/PS-BRAND-VISUAL-PROMPT-001_v0_1.md",
+      "size_bytes": 16607,
+      "sha256": "b98be184b7cd4fd4e3b90e5a30e50734b50eb433da8758ad9becb8dde6a69ad2"
+    },
+    {
+      "path": "docs/review/CHANGELOG-v0_2.md",
+      "size_bytes": 1029,
+      "sha256": "7dabb65d42ab2a83cec0d956c406f788e62a874fbd30693c6a1225c7461f385e"
+    },
+    {
+      "path": "docs/review/DAVID-REVIEW-DISPOSITION-v0_2.md",
+      "size_bytes": 1473,
+      "sha256": "caa5da697bb8c6ff3570f8bedd689e6ddeea3e38f4aa2bdfd392b0910823a7bc"
+    },
+    {
+      "path": "favicons/android-chrome-192x192.png",
+      "size_bytes": 36208,
+      "sha256": "b328080a66e11af267f32311b067b4766eb96341b46d93e0151dc73e0aba6847"
+    },
+    {
+      "path": "favicons/android-chrome-512x512.png",
+      "size_bytes": 181698,
+      "sha256": "741ab4fdff99f95c86d181f12220f60e5bfa2bc3541a07a87f9cff217f4594fe"
+    },
+    {
+      "path": "favicons/apple-touch-icon.png",
+      "size_bytes": 32712,
+      "sha256": "3222455bdcedc33b70b607537daab41ae8a5cd9bfbbf1f15c87a1c1642ce1d0a"
+    },
+    {
+      "path": "favicons/favicon-16x16.png",
+      "size_bytes": 929,
+      "sha256": "ac3ad996a33032b77cc15e91ffe1ebfce28741dee7b4e5039ddf3ff9e062ec36"
+    },
+    {
+      "path": "favicons/favicon-180x180.png",
+      "size_bytes": 32712,
+      "sha256": "3222455bdcedc33b70b607537daab41ae8a5cd9bfbbf1f15c87a1c1642ce1d0a"
+    },
+    {
+      "path": "favicons/favicon-192x192.png",
+      "size_bytes": 36208,
+      "sha256": "b328080a66e11af267f32311b067b4766eb96341b46d93e0151dc73e0aba6847"
+    },
+    {
+      "path": "favicons/favicon-32x32.png",
+      "size_bytes": 2717,
+      "sha256": "c19ff5f7f45cf34313db73de48a5f7bef40917eedb95ac8f1b816881f19246e8"
+    },
+    {
+      "path": "favicons/favicon-48x48.png",
+      "size_bytes": 5120,
+      "sha256": "e7d891b4701b28520fce1ff32b903f6335dcb1935daadd46266a7245261648b0"
+    },
+    {
+      "path": "favicons/favicon-512x512.png",
+      "size_bytes": 181698,
+      "sha256": "741ab4fdff99f95c86d181f12220f60e5bfa2bc3541a07a87f9cff217f4594fe"
+    },
+    {
+      "path": "favicons/favicon-64x64.png",
+      "size_bytes": 7673,
+      "sha256": "15789a7f7f4feccc4a2312055f6c7c3ded13284f1580681ba3b36067c51030c9"
+    },
+    {
+      "path": "favicons/favicon.ico",
+      "size_bytes": 951,
+      "sha256": "007bd4ad5576b1429d7b67e7ae6ca5e481f7a690e51c7dd3a7eb35651cf25921"
+    },
+    {
+      "path": "favicons/favicon.png",
+      "size_bytes": 2717,
+      "sha256": "c19ff5f7f45cf34313db73de48a5f7bef40917eedb95ac8f1b816881f19246e8"
+    },
+    {
+      "path": "favicons/favicon.svg",
+      "size_bytes": 292823,
+      "sha256": "a30aa0b03bc511d7d2f181e7beecda7f4975e81b8e05bcfcd5aeba172f04b9e9"
+    },
+    {
+      "path": "favicons/site.webmanifest",
+      "size_bytes": 384,
+      "sha256": "582b2f319a18c4c0e625a913b4f123c5c3059080da6b47deee8007010949e6ad"
+    },
+    {
+      "path": "official/reference/portussophia-programme-mark-source-raster.png",
+      "size_bytes": 219167,
+      "sha256": "c787e31b8081a4db6f807b8614ee7947a0085bd198408d2eefc87f6a5927cc39"
+    },
+    {
+      "path": "web/snippets/portussophia-favicon-head.html",
+      "size_bytes": 478,
+      "sha256": "0832a922b541feb6ce9fd876eefb60b19d52c6090564a80b74d049d07a9dd89e"
+    }
+  ]
+}

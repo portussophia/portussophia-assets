@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">PortusSophia supporting harbor symbol study v0.2</title>
+  <desc id="desc">Three restrained open arches above a broken horizon with a copper threshold, representing orientation and passage without duplicating the official programme mark.</desc>
+  <rect width="640" height="400" fill="#FAF8F5"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M130 276 V204 C130 121 197 54 280 54"
+          stroke="#0D1B2A" stroke-width="18"/>
+    <path d="M510 276 V204 C510 121 443 54 360 54"
+          stroke="#0D1B2A" stroke-width="18"/>
+    <!-- Inner arch lifted 10 units so the threshold owns a clear horizontal band -->
+    <path d="M216 266 V210 C216 153 262 107 319 107 H321 C378 107 424 153 424 210 V266"
+          stroke="#F0B53F" stroke-width="14"/>
+    <path d="M90 292 H270" stroke="#0D1B2A" stroke-width="10"/>
+    <path d="M370 292 H550" stroke="#0D1B2A" stroke-width="10"/>
+    <path d="M270 292 H370" stroke="#8F6B4D" stroke-width="6"/>
+  </g>
+</svg>

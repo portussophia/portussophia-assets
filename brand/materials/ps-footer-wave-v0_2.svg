@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" role="img" aria-labelledby="title desc">
+  <title id="title">PortusSophia footer wave</title>
+  <desc id="desc">Two restrained horizontal curves recalling the harbor without becoming decorative illustration.</desc>
+  <rect width="1200" height="90" fill="none"/>
+  <path d="M40 38 C180 18 300 58 440 38 S700 18 840 38 S1060 58 1160 38"
+        fill="none" stroke="#0D1B2A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M90 62 C230 42 350 82 490 62 S750 42 890 62 S1060 78 1120 62"
+        fill="none" stroke="#F0B53F" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">PortusSophia sailcloth swatch</title>
+  <desc id="desc">A navy field with the canonical low-contrast repeating sailcloth weave.</desc>
+  <defs>
+    <pattern id="sailcloth" width="6" height="6" patternUnits="userSpaceOnUse">
+      <g fill="#FFFFFF" fill-opacity=".022">
+        <path d="M5 0h1L0 6V5zM6 5v1H5z"/>
+        <path d="M1 0h1L0 2V1zM2 0h1L0 3V2zM3 0h1L0 4V3zM4 0h1L0 5V4zM6 1v1L2 6H1zM6 2v1L3 6H2zM6 3v1L4 6H3zM6 4v1L5 6H4z"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="640" height="360" fill="#0D1B2A"/>
+  <rect width="640" height="360" fill="url(#sailcloth)"/>
+</svg>

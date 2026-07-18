@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Lumen icon</title>
+  <desc id="desc">A contained lantern indicating light held within disciplined form.</desc>
+  <rect width="256" height="256" rx="24" fill="#FAF8F5"/>
+  <g fill="none" stroke="#0D1B2A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 72 H164"/>
+    <path d="M105 72 C105 54 116 44 128 44 C140 44 151 54 151 72"/>
+    <path d="M84 84 H172 L184 202 H72 Z"/>
+    <path d="M96 106 H160 V180 H96 Z"/>
+  </g>
+  <path d="M128 122 C143 139 143 153 128 168 C113 153 113 139 128 122 Z"
+        fill="#F0B53F"/>
+  <path d="M112 202 H144" stroke="#8F6B4D" stroke-width="8" stroke-linecap="round"/>
+</svg>
