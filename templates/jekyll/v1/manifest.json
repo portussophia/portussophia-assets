@@ -7,7 +7,8 @@
   "runtime_template_loading": false,
   "layouts": [
     "_layouts/default.html",
-    "_layouts/home.html"
+    "_layouts/home.html",
+    "_layouts/shoreline.html"
   ],
   "includes": [
     "_includes/head.html",
@@ -34,6 +35,7 @@
     "enlarged gold anchor navigation control",
     "single shared navigation tree",
     "restrained navigation hover motion with reduced-motion support",
+    "shoreline layout presents a photographic shoreline field before a navy sailcloth content field",
     "two-row footer",
     "site-specific context and links in the first row",
     "centered Here and Now refrain, copyright, and Rights and Use in the closing row",
