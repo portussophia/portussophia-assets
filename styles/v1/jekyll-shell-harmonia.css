@@ -32,106 +32,24 @@
   justify-content: center !important;
 }
 .site-header--harmonia .harmonia-identity {
-  position: relative !important;
-  box-sizing: border-box !important;
+  position: absolute !important;
+  inset: 0 !important;
   display: block !important;
-  width: min(80%, 58rem) !important;
-  margin: 0 auto !important;
-  padding: clamp(5.5rem, 11vw, 9rem) 0 1.4rem !important;
-  text-align: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
   text-decoration: none !important;
   background: none !important;
   border: 0 !important;
-  color: #f2c76f !important;
 }
-.site-header--harmonia .harmonia-portal {
-  position: absolute !important;
-  display: block !important;
-  top: .65rem !important;
-  left: 50% !important;
-  width: clamp(9rem, 23vw, 17rem) !important;
-  height: clamp(5rem, 13vw, 9.5rem) !important;
-  transform: translateX(-50%) !important;
-  border: 3px solid rgba(255,205,92,.96) !important;
-  border-bottom: 0 !important;
-  border-radius: 50% 50% 0 0 / 100% 100% 0 0 !important;
-  background:
-    radial-gradient(circle at 50% 100%, rgba(255,224,142,.92) 0, rgba(246,187,62,.42) 5%, rgba(240,181,63,.10) 22%, transparent 48%) !important;
-  box-shadow:
-    0 0 5px rgba(255,224,142,.95),
-    0 0 18px rgba(240,181,63,.72),
-    0 0 42px rgba(240,181,63,.28),
-    inset 0 0 18px rgba(240,181,63,.20) !important;
-}
-.site-header--harmonia .harmonia-portal::before,
-.site-header--harmonia .harmonia-portal::after {
-  content: "" !important;
-  position: absolute !important;
-  bottom: 0 !important;
-  width: 54% !important;
-  height: 1px !important;
-  background: linear-gradient(to right, transparent, rgba(240,181,63,.96)) !important;
-  transform-origin: bottom center !important;
-}
-.site-header--harmonia .harmonia-portal::before { left: -2% !important; transform: rotate(34deg) !important; }
-.site-header--harmonia .harmonia-portal::after { right: -2% !important; transform: rotate(-34deg) !important; }
-.site-header--harmonia .harmonia-wordmark {
-  display: block !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: clamp(2.5rem, 7.5vw, 6.2rem) !important;
-  font-weight: 400 !important;
-  line-height: .96 !important;
-  letter-spacing: -.035em !important;
-  color: #f4cc78 !important;
-  text-shadow: 0 0 8px rgba(255,219,135,.18), 0 0 22px rgba(240,181,63,.12) !important;
-}
-.site-header--harmonia .harmonia-wordmark sup {
-  position: relative !important;
-  top: -.45em !important;
-  margin-left: .1em !important;
-  font-size: .2em !important;
-}
-.site-header--harmonia .harmonia-rule {
-  display: flex !important;
-  align-items: center !important;
-  gap: .7rem !important;
-  width: min(92%, 50rem) !important;
-  margin: 1rem auto .7rem !important;
-}
-.site-header--harmonia .harmonia-rule::before,
-.site-header--harmonia .harmonia-rule::after {
-  content: "" !important;
-  flex: 1 !important;
-  height: 1px !important;
-  background: #e6b85d !important;
-}
-.site-header--harmonia .harmonia-rule i {
-  display: block !important;
-  width: .8rem !important;
-  height: .8rem !important;
-  border: 1px solid #e6b85d !important;
-  transform: rotate(45deg) !important;
-}
+.site-header--harmonia .harmonia-portal,
+.site-header--harmonia .harmonia-wordmark,
+.site-header--harmonia .harmonia-rule,
 .site-header--harmonia .harmonia-tagline {
-  display: block !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: clamp(.8rem, 2.2vw, 1.35rem) !important;
-  line-height: 1.25 !important;
-  color: #edc36e !important;
+  display: none !important;
 }
-.site-header--harmonia .harmonia-tagline b {
-  margin-right: .55em !important;
-  font-weight: 400 !important;
-  letter-spacing: .2em !important;
-}
-.site-header--harmonia .harmonia-tagline em {
-  font-size: 1.12em !important;
-  letter-spacing: .03em !important;
-}
+
+/* The canonical Harmonia image carries the visible identity.
+   Native markup remains in the document for semantic/accessibility continuity. */
 .site-header--harmonia .anchor-menu {
   position: absolute !important;
   top: 1rem !important;
@@ -141,9 +59,5 @@
 @media (max-width: 40rem) {
   .site-header.site-header--harmonia { height: 15.75rem !important; }
   .site-header--harmonia .harmonia-header-inner { padding: 0 .75rem !important; }
-  .site-header--harmonia .harmonia-identity { width: 94% !important; padding: 5.25rem 0 .75rem !important; }
-  .site-header--harmonia .harmonia-portal { top: .7rem !important; width: 8.8rem !important; height: 4.9rem !important; }
-  .site-header--harmonia .harmonia-wordmark { font-size: clamp(2.25rem, 12vw, 3.7rem) !important; }
-  .site-header--harmonia .harmonia-tagline { font-size: .78rem !important; }
-  .site-header--harmonia .harmonia-tagline b { letter-spacing: .12em !important; }
+  .site-header--harmonia .harmonia-identity { inset: 0 !important; }
 }
