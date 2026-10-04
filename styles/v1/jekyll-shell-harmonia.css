@@ -21,9 +21,11 @@
   opacity: .75 !important;
   pointer-events: none !important;
   background:
-    repeating-radial-gradient(ellipse at 50% 0%, rgba(244,191,78,.17) 0 1px, transparent 2px 10px),
-    repeating-linear-gradient(176deg, rgba(244,191,78,.07) 0 1px, transparent 1px 9px) !important;
-  transform: perspective(28rem) rotateX(58deg) scale(1.25) !important;
+    radial-gradient(ellipse at 50% 0%, rgba(255,211,105,.46) 0 1.5%, rgba(240,181,63,.18) 3%, transparent 14%),
+    repeating-radial-gradient(ellipse at 50% 0%, rgba(244,191,78,.14) 0 1px, transparent 2px 18px),
+    repeating-linear-gradient(178deg, rgba(244,191,78,.045) 0 1px, transparent 1px 13px) !important;
+  filter: blur(.15px) !important;
+  transform: perspective(34rem) rotateX(64deg) scale(1.32) !important;
   transform-origin: 50% 0 !important;
 }
 .site-header--harmonia .harmonia-header-inner {
@@ -60,11 +62,16 @@
   width: clamp(9rem, 23vw, 17rem) !important;
   height: clamp(5rem, 13vw, 9.5rem) !important;
   transform: translateX(-50%) !important;
-  border: 2px solid rgba(240,181,63,.94) !important;
+  border: 3px solid rgba(255,205,92,.96) !important;
   border-bottom: 0 !important;
   border-radius: 50% 50% 0 0 / 100% 100% 0 0 !important;
-  background: transparent !important;
-  box-shadow: 0 0 20px rgba(240,181,63,.38), inset 0 0 14px rgba(240,181,63,.16) !important;
+  background:
+    radial-gradient(circle at 50% 100%, rgba(255,224,142,.92) 0, rgba(246,187,62,.42) 5%, rgba(240,181,63,.10) 22%, transparent 48%) !important;
+  box-shadow:
+    0 0 5px rgba(255,224,142,.95),
+    0 0 18px rgba(240,181,63,.72),
+    0 0 42px rgba(240,181,63,.28),
+    inset 0 0 18px rgba(240,181,63,.20) !important;
 }
 .site-header--harmonia .harmonia-portal::before,
 .site-header--harmonia .harmonia-portal::after {
@@ -88,7 +95,7 @@
   line-height: .96 !important;
   letter-spacing: -.035em !important;
   color: #f4cc78 !important;
-  text-shadow: 0 0 20px rgba(240,181,63,.18) !important;
+  text-shadow: 0 0 8px rgba(255,219,135,.18), 0 0 22px rgba(240,181,63,.12) !important;
 }
 .site-header--harmonia .harmonia-wordmark sup {
   position: relative !important;
