@@ -15,7 +15,7 @@ This package standardizes the visible grammar of PortusSophia sites while allowi
 
 The v1 shell implements:
 
-- a navy sailcloth header on every page;
+- a navy sailcloth header field on every page, with declared variants preserving their own presentation grammar;
 - a continuous PortusSophia gold lower boundary beneath the header;
 - the enlarged gold anchor as the navigation control;
 - canonical shared typography and material styles;
@@ -33,6 +33,7 @@ The anchor remains a navigation symbol. It does not replace the official PortusS
 
 - `default.html` provides the document shell.
 - `home.html` provides the primary identity composition.
+- `harmonia` is an explicit header variant within the shared shell: a navy water-and-horizon field carrying the PortusSophia™ wordmark, `THE INFINITE Here and Now!`, and the shared navigation control. It does not replace or redefine Shoreline.
 - `shoreline.html` provides a photographic shoreline field followed by a gold-bounded navy sailcloth content field.
 
 The shoreline layout accepts these optional front-matter values:
@@ -78,6 +79,7 @@ The shell also depends on:
 /styles/v1/jekyll-shell.css
 /styles/v1/jekyll-shell-polish.css
 /styles/v1/jekyll-shell-optical.css
+/styles/v1/jekyll-shell-harmonia.css
 /scripts/v1/navigation.js
 /favicons/
 ```
