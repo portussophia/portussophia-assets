@@ -9,24 +9,14 @@
   padding: 0 !important;
   border: 0 !important;
   border-bottom: 3px solid #e9b84e !important;
-  background:
-    radial-gradient(ellipse at 50% 44%, rgba(244,196,93,.36) 0, rgba(244,196,93,.12) 16%, transparent 38%),
-    linear-gradient(to bottom, transparent 0 47%, rgba(240,181,63,.42) 47.2%, rgba(240,181,63,.08) 48%, transparent 49%),
-    linear-gradient(180deg, #031522 0%, #062238 48%, #031827 100%) !important;
+  background-color: #031522 !important;
+  background-image: url("https://assets.portussophia.com/img/site/file_0000000009e081f68f7f150ee01d291e.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
 }
 .site-header.site-header--harmonia::before {
-  content: "" !important;
-  position: absolute !important;
-  inset: 48% -10% 0 !important;
-  opacity: .75 !important;
-  pointer-events: none !important;
-  background:
-    radial-gradient(ellipse at 50% 0%, rgba(255,211,105,.46) 0 1.5%, rgba(240,181,63,.18) 3%, transparent 14%),
-    repeating-radial-gradient(ellipse at 50% 0%, rgba(244,191,78,.14) 0 1px, transparent 2px 18px),
-    repeating-linear-gradient(178deg, rgba(244,191,78,.045) 0 1px, transparent 1px 13px) !important;
-  filter: blur(.15px) !important;
-  transform: perspective(34rem) rotateX(64deg) scale(1.32) !important;
-  transform-origin: 50% 0 !important;
+  content: none !important;
 }
 .site-header--harmonia .harmonia-header-inner {
   position: relative !important;
