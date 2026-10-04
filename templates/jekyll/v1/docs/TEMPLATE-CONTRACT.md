@@ -6,9 +6,10 @@ Every adopting surface must preserve:
 
 1. A navy sailcloth header.
 2. A PortusSophia gold lower header boundary on every page.
-3. Two canonical header variants:
+3. Canonical header selection distinguishes base identity/compact behavior from explicit presentation variants:
    - identity header for home and primary landing pages;
-   - compact header for internal pages.
+   - compact header for internal pages;
+   - Harmonia as an explicit presentation variant carried by the shared shell without redefining Shoreline.
 4. The identity header contains the programme mark, surface title, declaration, and the shared anchor navigation.
 5. The compact header contains the surface title, optional role, and the shared anchor navigation without the programme mark.
 6. The title and anchor in the identity header share one title row and alignment system.
@@ -28,7 +29,9 @@ Every adopting surface must preserve:
 
 - Pages using `layout: home` receive the identity header by default.
 - Internal pages, including `layout: shoreline`, receive the compact header by default.
-- A page may explicitly declare `header_variant: identity` or `header_variant: compact`.
+- A page may explicitly declare `header_variant: identity`, `header_variant: compact`, or `header_variant: harmonia`.
+- `harmonia` preserves the shared document shell, navigation tree, accessibility structure, and gold lower boundary while presenting its own water-and-horizon identity field.
+- Harmonia and Shoreline are distinct variants. Neither is a local override of the other.
 - Both variants use the same `anchor-menu.html` include.
 
 ## Shoreline composition
@@ -48,7 +51,7 @@ Canonical:
 - header-variant selector;
 - identity and compact header structure;
 - anchor navigation include;
-- shared shell CSS;
+- shared shell CSS, including declared variant styles such as `jekyll-shell-harmonia.css`;
 - shoreline composition structure;
 - navigation behavior;
 - footer row structure;
