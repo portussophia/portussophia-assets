@@ -1,6 +1,6 @@
 {
   "name": "PortusSophia Jekyll Template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "canonical shared shell candidate",
   "reference_implementation": "https://public.portussophia.com",
   "canonical_source": "templates/jekyll/v1",
@@ -19,7 +19,8 @@
     "_includes/header-shoreline.html",
     "_includes/header-shoreline-identity.html",
     "_includes/anchor-menu.html",
-    "_includes/footer.html"
+    "_includes/footer.html",
+    "_includes/header-harmonia.html"
   ],
   "dependencies": [
     "/styles/v1/site.css",
@@ -29,7 +30,8 @@
     "/styles/v1/jekyll-shell-optical.css",
     "/styles/v1/jekyll-shell-shoreline-identity.css",
     "/scripts/v1/navigation.js",
-    "/favicons/favicon.svg"
+    "/favicons/favicon.svg",
+    "/styles/v1/jekyll-shell-harmonia.css"
   ],
   "brand_invariants": [
     "navy sailcloth header",
@@ -45,6 +47,7 @@
     "two-row footer",
     "site-specific context and links in the first row",
     "centered Here and Now refrain, copyright, and Rights and Use in the closing row",
-    "programme mark and navigation anchor remain distinct"
+    "programme mark and navigation anchor remain distinct",
+    "Harmonia is an explicit header variant; its portal, horizon, water field, wordmark, refrain, and navigation remain presentation-distinct from Shoreline"
   ]
 }
