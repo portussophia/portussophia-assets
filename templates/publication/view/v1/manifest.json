@@ -1,0 +1,54 @@
+{
+  "name": "PortusSophia Publication View Template",
+  "version": "0.1.0",
+  "status": "canonical candidate",
+  "canonical_source": "templates/publication/view/v1",
+  "framework_dependency": false,
+  "page_profile": {
+    "width_in": 6,
+    "height_in": 9,
+    "screen_first": true
+  },
+  "cover_slots": [
+    "title",
+    "subtitle",
+    "author",
+    "copyright"
+  ],
+  "cover_invariants": [
+    "approved Harmonia full-field artwork",
+    "sun and horizon retain visual center-mass",
+    "title is the dominant text mass",
+    "subtitle uses restrained italic serif treatment",
+    "author and copyright remain quiet at the bottom",
+    "wheel or helm embellishment does not appear on the cover"
+  ],
+  "contents_invariants": [
+    "wheel or helm may identify the contents/navigation surface",
+    "wheel or helm remains distinct from the programme mark",
+    "contents follows the cover before reader pagination begins"
+  ],
+  "reading_invariants": [
+    "screen-first typography",
+    "visible administrative frontmatter omitted by default",
+    "visible verification postmatter omitted by default",
+    "verification remains machine-accessible outside the visible reading flow",
+    "reader page numbering begins after contents"
+  ],
+  "distinction_invariants": [
+    "operative distinction text remains textual and extractable",
+    "visible non-equivalence uses the Unicode glyph ≠",
+    "presentation uses a navy field with gold italic serif text",
+    "thin gold internal rules may frame the distinction",
+    "connected distinction sequences and their connective text are semantic keep-groups"
+  ],
+  "closing_invariants": [
+    "Here and Now! is italic when rendered as the canonical closing"
+  ],
+  "excluded_from_template_vocabulary": [
+    "work-specific titles",
+    "work-specific subtitles",
+    "Cosymmetria",
+    "Nourishment"
+  ]
+}
