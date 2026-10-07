@@ -160,10 +160,8 @@ PUBLICATION CONTRACT ≠ FRAMEWORK ADAPTER
 
 The existing Jekyll shared shell remains governed separately by `templates/jekyll/v1/`.
 
-## 10. Field Guide boundary
+## 10. Publication-specific exceptions
 
-The established *A Field Guide to Epistemic Failure* cover is not silently normalized into this cover family.
-
-Its cover remains a distinct profile unless a later explicit decision brings it under this contract.
+Existing publication-specific cover exceptions remain outside this contract unless a later explicit decision brings them under it.
 
 *Here and Now!*
