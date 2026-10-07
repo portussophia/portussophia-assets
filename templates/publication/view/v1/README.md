@@ -37,11 +37,11 @@ The v1 View template defines:
 ## Boundaries
 
 - No work-specific word belongs to this template.
-- `Cosymmetria`, `Nourishment`, and other publication titles/subtitles are publication data, not template vocabulary.
+- Publication titles and subtitles remain local publication data.
 - The wheel/helm is a contents/navigation embellishment and does not become the programme mark.
 - The full-color Harmonia field is a presentation treatment; it does not replace the official programme mark.
 - The existing Jekyll shared shell remains separate under `templates/jekyll/v1/`.
-- The Field Guide cover remains a distinct cover profile unless separately adopted into this contract.
+- Existing publication-specific cover exceptions remain outside this contract unless separately adopted.
 
 ## Files
 
