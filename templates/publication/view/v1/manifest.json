@@ -47,8 +47,6 @@
   ],
   "excluded_from_template_vocabulary": [
     "work-specific titles",
-    "work-specific subtitles",
-    "Cosymmetria",
-    "Nourishment"
+    "work-specific subtitles"
   ]
 }
