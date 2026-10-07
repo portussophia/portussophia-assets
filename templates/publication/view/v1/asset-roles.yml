@@ -1,0 +1,28 @@
+version: "0.1.0"
+standing: "canonical candidate"
+
+roles:
+  harmonia_cover_field:
+    purpose: "Full-field Harmonia artwork used behind publication title/subtitle"
+    requirement: "Approved publication-specific Harmonia field"
+    default_path: null
+    note: "Do not silently substitute the web-header crop."
+
+  toc_wheel:
+    purpose: "Wheel/helm embellishment for contents/navigation surface"
+    requirement: "Approved Harmonia wheel/helm derivative"
+    default_path: null
+    note: "Navigation embellishment; not the programme mark."
+
+  programme_mark:
+    purpose: "Official PortusSophia programme mark when a publication context calls for it"
+    default_path: "official/reference/portussophia-programme-mark-source-raster.png"
+    note: "Not automatically placed on the View cover."
+
+render_slots:
+  - title
+  - subtitle
+  - author
+  - copyright
+
+work_specific_values_are_template_data: false
