@@ -104,6 +104,10 @@ Do not overwrite official mark references, canonical stylesheet sources, or cano
 
 The [PortusSophia™ Library README](library/README.md) is an **initial rough draft**, not adopted or canonical library documentation. It begins with existing representations and describes five proposed, potentially overlapping sections: Sandbox, Draft, Distributed, Published, and Canonical. Their terminology remains pending VERN verification. Library orientation does not change this repository’s role as a shared static-asset origin.
 
+## Working proposals — DEWEY v2.0
+
+The DEWEY materials are preserved in [`proposals/`](proposals/) as **working / non-governing / candidate** records, not as adopted architecture. The [harmonization notes](proposals/DEWEY_v2_0_harmonization-notes.md) connect the separately preserved [Markdown design source](proposals/DEWEY_v2_0.md) and [TeX implementation](proposals/DEWEY_v2_0.tex), and hold a later, emerging architectural intention concerning *bookends*, possible *capacity horizons*, emerging stories, and "artifactificationing". The notes do not revise either source or confer standing.
+
 ## Rights and use
 
 Copyright © 2026 PortusSophia, LLC. All rights reserved.
