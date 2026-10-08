@@ -33,6 +33,8 @@ The repository remains a static asset origin. It does not require its own Jekyll
 │   └── reference/           # Supplied programme-mark source references
 ├── brand/
 │   ├── supporting-symbols/  # Harbor and triad studies
+│   ├── harmonia/            # Current Harmonia identity variants (quarternic set)
+│   ├── brand-logo-readme.md # Forthcoming brand-logo description (placeholder)
 │   ├── icons/               # Structura, Ethica, and Lumen icons
 │   ├── materials/           # Sailcloth and footer-wave studies
 │   └── boards/              # Review boards and previews
@@ -99,6 +101,10 @@ The current controlled brand package is **v0.2**.
 - Review records and checksums are retained under `docs/`.
 
 Do not overwrite official mark references, canonical stylesheet sources, or canonical templates without a separate release decision.
+
+## Harmonia — base quarternic visual set
+
+The Architect-designated [Harmonia base quarternic set](brand/harmonia/README.md) supplies four related distribution images: [with-text identity](brand/harmonia/harmonia-with-text.png), [no-text emblem](brand/harmonia/harmonia-no-text.png), [multi-size favicon](brand/harmonia/favicon.ico), and [social-media image](brand/harmonia/harmonia-social-1200x630.png). The Harmonia header stylesheet now uses the **with-text asset from this set**, replacing its former opaque image reference. Its manifest includes checksums and intended alignment. The forthcoming [`brand-logo-readme.md`](brand/brand-logo-readme.md) is **only a placeholder**; this update does not silently replace the separately documented official programme-mark reference or the existing global favicon family.
 
 ## Related PortusSophia repository
 

@@ -1,0 +1,44 @@
+{
+  "package": "PortusSophia Harmonia — base quarternic set",
+  "architect": "James Roy Dennis",
+  "date": "2026-10-08",
+  "scope": "Harmonia presentation artwork family only",
+  "versions": 4,
+  "native_8k": false,
+  "brand_logo_readme_status": "FORTHCOMING",
+  "active_harmonia": "brand/harmonia/harmonia-with-text.png",
+  "assets": [
+    {
+      "path": "brand/harmonia/harmonia-with-text.png",
+      "sha256": "e35a7a2f7427f65b0506fa122e6d36728f335783e5d7db96e670b31e1c8eb87c",
+      "git_blob_sha1": "67b7e878281c71019db72bb646e8b61fd90c36cd",
+      "size_bytes": 1468325,
+      "resolution": "1536 × 1536",
+      "purpose": "Text-bearing identity; sun center (768, 512), two-thirds of image height above bottom"
+    },
+    {
+      "path": "brand/harmonia/harmonia-no-text.png",
+      "sha256": "579b7a137eec238ca4879c8138e58821de965cf18653ccdefb60d0450e397398",
+      "git_blob_sha1": "de865edea382bc0c9c070ae3ac258e29551dd355",
+      "size_bytes": 1580130,
+      "resolution": "1200 × 1200",
+      "purpose": "Emblem without text; sun center (600, 600)"
+    },
+    {
+      "path": "brand/harmonia/favicon.ico",
+      "sha256": "be5e4edb39392777fbcf3d5f458e163b48d43b3f0c43f383bd5acd1805b3c42f",
+      "git_blob_sha1": "15601be143a82613d4b233364dd5a29e6733aee5",
+      "size_bytes": 149415,
+      "resolution": "16–256 px ICO",
+      "purpose": "Multi-size icon derivative of no-text composition"
+    },
+    {
+      "path": "brand/harmonia/harmonia-social-1200x630.png",
+      "sha256": "afa34a44ef81af9f380c538e46317e2c53db5dcddaed7760cae9cc6163a2c72c",
+      "git_blob_sha1": "d2ccb30e9793f57677daeea564ca2bfc8030d1a8",
+      "size_bytes": 840781,
+      "resolution": "1200 × 630",
+      "purpose": "Wide social-media composition without text, from the no-text design family"
+    }
+  ]
+}

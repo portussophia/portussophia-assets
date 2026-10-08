@@ -1,4 +1,4 @@
-/* Harmonia v0.3 — isolated header presentation.
+/* Harmonia v0.4 — shared quarternic visual set; active text-bearing identity.
    Loaded after Shoreline/shared CSS so Harmonia does not inherit the old lockup. */
 .site-header.site-header--harmonia {
   position: relative !important;
@@ -10,10 +10,10 @@
   border: 0 !important;
   border-bottom: 3px solid #e9b84e !important;
   background-color: #031522 !important;
-  background-image: url("https://assets.portussophia.com/img/site/file_0000000009e081f68f7f150ee01d291e.png") !important;
+  background-image: url("https://assets.portussophia.com/brand/harmonia/harmonia-with-text.png") !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
-  background-size: cover !important;
+  background-size: contain !important;
 }
 .site-header.site-header--harmonia::before {
   content: none !important;

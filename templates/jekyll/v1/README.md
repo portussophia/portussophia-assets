@@ -33,7 +33,7 @@ The anchor remains a navigation symbol. It does not replace the official PortusS
 
 - `default.html` provides the document shell.
 - `home.html` provides the primary identity composition.
-- `harmonia` is an explicit header variant within the shared shell: a navy water-and-horizon field carrying the PortusSophia™ wordmark, `THE INFINITE Here and Now!`, and the shared navigation control. It does not replace or redefine Shoreline.
+- `harmonia` is an explicit header variant within the shared shell: a navy water-and-horizon field carrying the PortusSophia™ wordmark, `THE INFINITE Here and Now!`, and the shared navigation control. It does not replace or redefine Shoreline. Its active artwork comes from the [Harmonia base quarternic set](../../../../brand/harmonia/README.md); the separately documented official programme-mark and global favicon sources are not overwritten.
 - `shoreline.html` provides a photographic shoreline field followed by a gold-bounded navy sailcloth content field.
 
 The shoreline layout accepts these optional front-matter values:
