@@ -84,6 +84,12 @@ The shell also depends on:
 /favicons/
 ```
 
+## _blank — opt-in viewport-aware baseline
+
+An additive `_blank` layout now provides a neutral viewport-aware foundation for **future, explicitly inheriting layouts**, with an exact 128 × 128 fully transparent PNG logo placeholder, fluid spacing, responsive sizing, and optional content reflow helpers. It is not Jekyll's global default, does not replace the existing `default.html` shell, and does not change Shoreline or Harmonia.
+
+See [`docs/BLANK-BASELINE.md`](docs/BLANK-BASELINE.md) for inheritance, placeholder configuration, and verification boundaries. The canonical shell manifest and contract have not been reclassified by this additive baseline.
+
 ## Adoption rule
 
 Copy the template files into a site repository through a reviewed commit or pull request. Do not automatically overwrite local templates. Any local divergence must be documented as a deliberate override.

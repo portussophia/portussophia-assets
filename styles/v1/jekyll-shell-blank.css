@@ -1,0 +1,78 @@
+/* PortusSophia _blank v0.1 — opt-in, presentation-neutral, responsive baseline.
+ * It does not load or amend the canonical branded Jekyll shell.
+ * No formal mapping of philosophical terms to viewport modes is asserted.
+ */
+:root {
+  --ps-blank-content-max: 76rem;
+  --ps-blank-reading-max: 72ch;
+  --ps-blank-gutter: clamp(.875rem, 4vw, 2rem);
+  --ps-blank-text: #1c2430;
+  --ps-blank-background: #fff;
+  --ps-blank-focus: #135cb5;
+}
+.ps-blank-page,
+.ps-blank-page *,
+.ps-blank-page *::before,
+.ps-blank-page *::after { box-sizing: border-box; }
+.ps-blank-page {
+  margin: 0;
+  min-inline-size: 0;
+  color: var(--ps-blank-text);
+  background: var(--ps-blank-background);
+  font: 1rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.ps-blank-page :focus-visible { outline: 3px solid var(--ps-blank-focus); outline-offset: 3px; }
+.ps-blank-frame { display: flex; flex-direction: column; min-block-size: 100vh; min-block-size: 100svh; }
+.ps-blank-container {
+  inline-size: 100%;
+  max-inline-size: var(--ps-blank-content-max);
+  padding-inline: var(--ps-blank-gutter);
+  margin-inline: auto;
+  min-inline-size: 0;
+}
+.ps-blank-header-inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: clamp(.75rem, 2vw, 1.5rem);
+  padding-block: clamp(.75rem, 2vw, 1.5rem);
+}
+.ps-blank-logo {
+  display: block;
+  inline-size: min(8rem, 24vw);
+  block-size: auto;
+  max-inline-size: 100%;
+  object-fit: contain;
+}
+.ps-blank-header-label { font-size: clamp(1rem, 2vw, 1.4rem); overflow-wrap: break-word; }
+.ps-blank-main { flex: 1 1 auto; padding-block: clamp(1.25rem, 4vw, 3rem); }
+.ps-blank-main :is(img, svg, video, canvas) { max-inline-size: 100%; block-size: auto; }
+.ps-blank-reading { max-inline-size: var(--ps-blank-reading-max); min-inline-size: 0; }
+.ps-blank-reading :is(p, li, blockquote) { overflow-wrap: break-word; }
+.ps-blank-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: clamp(.75rem, 2vw, 1.5rem);
+}
+.ps-blank-grid > * { min-inline-size: 0; }
+.ps-blank-overflow,
+.ps-blank-main pre { max-inline-size: 100%; overflow-x: auto; }
+.ps-blank-skip {
+  position: absolute;
+  inset-block-start: .5rem;
+  inset-inline-start: .5rem;
+  z-index: 10;
+  padding: .5rem .75rem;
+  background: var(--ps-blank-background);
+  color: var(--ps-blank-text);
+  transform: translateY(-180%);
+}
+.ps-blank-skip:focus { transform: none; }
+@media (max-width: 40rem) {
+  .ps-blank-header-inner { gap: .75rem; }
+  .ps-blank-logo { inline-size: min(6rem, 24vw); }
+}
+@media print {
+  .ps-blank-frame { min-block-size: 0; }
+  .ps-blank-skip { display: none; }
+}

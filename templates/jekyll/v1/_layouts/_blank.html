@@ -1,0 +1,38 @@
+---
+---
+{%- assign ps = site.portussophia | default: empty -%}
+{%- assign asset_origin = ps.asset_origin | default: 'https://assets.portussophia.com' -%}
+{%- assign asset_version = ps.asset_version | default: '1' -%}
+{%- capture blank_logo_fallback -%}{{ asset_origin }}/templates/jekyll/v1/assets/blank-logo-128.png{%- endcapture -%}
+{%- assign blank_logo_url = page.blank_logo_url | default: ps.blank_logo_url | default: blank_logo_fallback -%}
+{%- assign blank_logo_alt = page.blank_logo_alt | default: ps.blank_logo_alt | default: '' -%}
+{%- assign blank_header_label = page.blank_header_label | default: ps.blank_header_label -%}
+{%- assign blank_css_url = page.blank_css_url | default: ps.blank_css_url -%}
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' | escape }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title | default: 'Untitled' | escape }}</title>
+  <link rel="stylesheet" href="{{ asset_origin }}/styles/v1/jekyll-shell-blank.css?v={{ asset_version | url_encode }}">
+  {%- if blank_css_url %}
+  <link rel="stylesheet" href="{{ blank_css_url | escape }}">
+  {%- endif %}
+</head>
+<body class="ps-blank-page">
+  <a class="ps-blank-skip" href="#ps-blank-main">Skip to main content</a>
+  <div class="ps-blank-frame">
+    <header class="ps-blank-header">
+      <div class="ps-blank-container ps-blank-header-inner">
+        <img class="ps-blank-logo" src="{{ blank_logo_url | escape }}" width="128" height="128" alt="{{ blank_logo_alt | escape }}">
+        {%- if blank_header_label %}
+        <span class="ps-blank-header-label">{{ blank_header_label | escape }}</span>
+        {%- endif %}
+      </div>
+    </header>
+    <main class="ps-blank-container ps-blank-main" id="ps-blank-main" tabindex="-1">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>
