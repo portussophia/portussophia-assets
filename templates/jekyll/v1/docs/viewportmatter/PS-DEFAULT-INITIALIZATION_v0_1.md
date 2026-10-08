@@ -34,7 +34,7 @@ This chain names **Jekyll layout inheritance**, not an additional assertion abou
 
 **No** `frontmatter`, `bodymatter`, or `postmatter` region content is assigned. No regional markup, obligatory section labels, default text, viewport breakpoints, styling, or placeholders are selected.
 
-These three names remain a **viewport-matter TRI** under the existing [viewportmatter minimum specification](PS-MINSPEC-DEFAULT-VIEWPORT-MATTER-TRI_v0_1.md). In particular, viewport-matter `frontmatter` is not silently redefined as Jekyll YAML front matter.
+These three names remain a **viewport-matter TRI** as described in the [previous, now-deprecated viewportmatter minimum specification](PS-MINSPEC-DEFAULT-VIEWPORT-MATTER-TRI_v0_1.md.deprecated). In particular, viewport-matter `frontmatter` is not silently redefined as Jekyll YAML front matter.
 
 ## PCM and design boundary
 
