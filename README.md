@@ -114,6 +114,8 @@ The [PortusSophia primary repository](https://github.com/portussophia/portussoph
 
 The [PortusSophia™ Library README](library/README.md) is an **initial rough draft**, not adopted or canonical library documentation. It begins with existing representations and describes five proposed, potentially overlapping sections: Sandbox, Draft, Distributed, Published, and Canonical. Their terminology remains pending VERN verification. The [SSRN collection intake](library/ssrn/README.md) now records all eleven received PDF originals as **Architect-designated Distributed + Canonical** for the library, with all eleven original PDF binaries deposited and their separate formal seal pending. Library orientation does not change this repository’s role as a shared static-asset origin.
 
+The [Leanpub sibling collection](library/leanpub/README.md) now holds an initial non-canonical working inventory and four curated public-facing assets (three labeled samples and the original *Contemplation* cover). Working manuscripts, archives, and unverified full editions were not included in this public batch; Leanpub's author-side publication designations remain separate from library standing.
+
 ## Working proposals — DEWEY v2.0
 
 The DEWEY materials are preserved in [`proposals/`](proposals/) as **working / non-governing / candidate** records, not as adopted architecture. The [harmonization notes](proposals/DEWEY_v2_0_harmonization-notes.md) connect the separately preserved [Markdown design source](proposals/DEWEY_v2_0.md) and [TeX implementation](proposals/DEWEY_v2_0.tex), and hold a later, emerging architectural intention concerning *bookends*, possible *capacity horizons*, emerging stories, and "artifactificationing". The notes do not revise either source or confer standing.

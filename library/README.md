@@ -1,7 +1,7 @@
 ---
 title: "PortusSophia™ Library — README"
 identifier: "PS-LIBRARY-README"
-version: "0.8-rough-draft"
+version: "0.9-rough-draft"
 document_status: "DRAFT"
 standing: "NON-CANONICAL / NON-GOVERNING / NOT ADOPTED"
 intended_repository: "portussophia/portussophia-assets"
@@ -54,6 +54,10 @@ The ORCID identifies the researcher associated with this library effort. It does
 The Architect has supplied eleven PDF representations coupled in the documents to the researcher ORCID. He designates these **Distributed + Canonical within the library**. The [SSRN intake inventory](ssrn/README.md) records exact source filenames, work titles, SSRN identifiers, and a [SHA-256 receipt](ssrn/SHA256SUMS).
 
 **Reception and GitHub binary deposition are complete (11/11); the separate formal seal remains pending.** The deposited PDFs retain their exact source filenames and bytes; each Git blob SHA-1 matches the corresponding locally supplied PDF. See the [SSRN collection index](ssrn/README.md) for document links. These checks are deposit-integrity receipts, not a formal seal or an independent SSRN server-copy comparison.
+
+## Leanpub sibling collection — curated public-facing assets
+
+The [Leanpub collection README](leanpub/README.md) is an initial, non-canonical orientation to a sibling collection whose publishing and author-workspace designations do not equate to SSRN's dissemination standing. Its first public-facing repository intake includes three explicitly labeled sample PDFs and the unmodified *Contemplation* cover image. The larger Drive collection includes working manuscripts, revisions, and archives that have **not** been made public here. Published-book inventory verification remains associated with Leanpub's authenticated author workspace.
 
 ## Five initial sections
 
@@ -170,6 +174,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 ## Draft revision note
 
+- **v0.9 rough draft (2026-10-08):** Linked the Leanpub sibling intake and received three explicitly labeled public-facing PDF samples plus the existing Contemplation cover; held private/undesignated working files outside the public repo.
 - **v0.8 rough draft (2026-10-08):** Integrated the Architect's open Schema Epistemics / meta-participation note; no implementation, definition, or governing standing established.
 - **v0.7 rough draft (2026-10-08):** Added the Architect's provisional billboard line about the library as a surface where path, paths & traversal may or may not reveal distinction; no change to governing standing.
 - **v0.6 rough draft (2026-10-08):** Completed byte-preserving GitHub deposit of the 11 SSRN PDF representations; a separate formal seal is pending with the other Peter roles. The library orientation remains rough-draft and non-governing.
