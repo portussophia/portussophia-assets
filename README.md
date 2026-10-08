@@ -106,7 +106,7 @@ The [PortusSophia primary repository](https://github.com/portussophia/portussoph
 
 ## Emerging PortusSophia™ Library
 
-The [PortusSophia™ Library README](library/README.md) is an **initial rough draft**, not adopted or canonical library documentation. It begins with existing representations and describes five proposed, potentially overlapping sections: Sandbox, Draft, Distributed, Published, and Canonical. Their terminology remains pending VERN verification. The [SSRN collection intake](library/ssrn/README.md) now records all eleven received PDF originals as **Architect-designated Distributed + Canonical** for the library, with the binary GitHub deposit explicitly pending. Library orientation does not change this repository’s role as a shared static-asset origin.
+The [PortusSophia™ Library README](library/README.md) is an **initial rough draft**, not adopted or canonical library documentation. It begins with existing representations and describes five proposed, potentially overlapping sections: Sandbox, Draft, Distributed, Published, and Canonical. Their terminology remains pending VERN verification. The [SSRN collection intake](library/ssrn/README.md) now records all eleven received PDF originals as **Architect-designated Distributed + Canonical** for the library, with all eleven original PDF binaries deposited and their separate formal seal pending. Library orientation does not change this repository’s role as a shared static-asset origin.
 
 ## Working proposals — DEWEY v2.0
 

@@ -1,7 +1,7 @@
 ---
 title: "PortusSophia™ Library — README"
 identifier: "PS-LIBRARY-README"
-version: "0.5-rough-draft"
+version: "0.6-rough-draft"
 document_status: "DRAFT"
 standing: "NON-CANONICAL / NON-GOVERNING / NOT ADOPTED"
 intended_repository: "portussophia/portussophia-assets"
@@ -10,7 +10,7 @@ originating_direction: "James Roy Dennis"
 draft_rendering: "PeterGate"
 researcher_orcid: "https://orcid.org/0009-0000-6689-8763"
 vern_alignment: "PENDING — labels not yet verified against VERN"
-asset_inventory: "SSRN — 11 source PDFs received / GitHub binary deposit pending"
+asset_inventory: "SSRN — 11/11 source PDFs deposited, formal seal pending"
 repository_write_status: "PLACED AS ROUGH DRAFT / NOT ADOPTED"
 date: "2026-10-08"
 ---
@@ -51,7 +51,7 @@ The ORCID identifies the researcher associated with this library effort. It does
 
 The Architect has supplied eleven PDF representations coupled in the documents to the researcher ORCID. He designates these **Distributed + Canonical within the library**. The [SSRN intake inventory](ssrn/README.md) records exact source filenames, work titles, SSRN identifiers, and a [SHA-256 receipt](ssrn/SHA256SUMS).
 
-**Reception is complete; GitHub binary deposition is not.** All eleven PDFs remain available as the supplied local source files. Their bytes have **not** yet been uploaded to this repository; no repo-hosted PDF links or verified SSRN-to-GitHub identity are claimed. The index is an inspectable reception record, not automatic admission to governing authority.
+**Reception and GitHub binary deposition are complete (11/11); the separate formal seal remains pending.** The deposited PDFs retain their exact source filenames and bytes; each Git blob SHA-1 matches the corresponding locally supplied PDF. See the [SSRN collection index](ssrn/README.md) for document links. These checks are deposit-integrity receipts, not a formal seal or an independent SSRN server-copy comparison.
 
 ## Five initial sections
 
@@ -159,6 +159,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 ## Draft revision note
 
+- **v0.6 rough draft (2026-10-08):** Completed byte-preserving GitHub deposit of the 11 SSRN PDF representations; a separate formal seal is pending with the other Peter roles. The library orientation remains rough-draft and non-governing.
 - **v0.5 rough draft (2026-10-08):** Recorded all eleven SSRN PDF sources received, the Architect’s scope-limited Distributed + Canonical designations, and the separate outstanding task of binary deposition; linked the SSRN inventory and checksums.
 - **v0.4 rough draft (2026-10-08):** Refined the conditional foyer inscription to preserve the Architect’s exact wording, “mutually inclusive, exclusive and/or neither.” Added a closing separator after the existing Faith — Fellowship — Joy / Here and Now! lines; standing unchanged.
 - **v0.3 rough draft (2026-10-08):** Included the Architect's conditional, provisional foyer billboard inscription as a Markdown banner with the Figshare project reference; no physical foyer, standing, or governing standard established.
@@ -170,8 +171,8 @@ The five-section intention is received. Its implementation and each item's stand
 | Matter | Current record |
 | --- | --- |
 | VERN definition or nomenclature | `[VERN-SOURCE-LINK-PENDING]` |
-| Initial asset set | SSRN collection: **11/11 original PDFs received locally; binary repository deposit pending** |
-| Item-level inventories and provenance | [SSRN intake](ssrn/README.md) and [SHA-256 manifest](ssrn/SHA256SUMS); GitHub PDF blobs pending |
+| Initial asset set | SSRN collection: **11/11 original PDFs deposited to `library/ssrn/`; seal pending** |
+| Item-level inventories and provenance | [SSRN index](ssrn/README.md) and [SHA-256 manifest](ssrn/SHA256SUMS); original PDF blob identity checked; seal pending |
 | Library README location in repository | `library/README.md` — placed as rough draft |
 | Review or adoption decision | `[NOT-YET-RECORDED]` |
 
@@ -179,7 +180,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 **DRAFT — FOR EXAMINATION / NO AUTOMATIC INCORPORATION.**
 
-The present README has been placed in `library/` as a rough draft and cross-linked from the repository root README. No initial library PDF binaries or five-section folder hierarchy are created by this documentation operation. Eleven PDF sources have been received and recorded, but their byte-preserving repository deposit remains pending. Placement and linking do not alter the draft’s non-canonical standing.
+The present README has been placed in `library/` as a rough draft and cross-linked from the repository root README. All eleven SSRN PDF originals are being deposited in `library/ssrn/`; no five-section folder hierarchy is created by this operation. Formal sealing and independent comparison against SSRN server-hosted copies are separate tasks. Placement and linking do not alter the draft’s non-canonical standing.
 
 *Faith — Fellowship — Joy*—  
 *Here and Now!*
