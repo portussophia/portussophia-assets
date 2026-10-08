@@ -64,6 +64,14 @@ It standardizes the navy sailcloth header, gold lower header boundary, enlarged 
 
 Every adopting site retains local copies of `_layouts`, `_includes`, and `_data`. Adoption and later synchronization occur through reviewed commits rather than automatic overwrites.
 
+## viewportmatter — emerging local template standard
+
+The [**viewportmatter minimum specification v0.1**](templates/jekyll/v1/docs/viewportmatter/PS-MINSPEC-DEFAULT-VIEWPORT-MATTER-TRI_v0_1.md) records the Architect-directed, locally scoped **PortusSophia™ viewport-matter TRI** for a proposed `_default` layout layered over `_blank`.
+
+It declares `frontmatter`, `bodymatter`, and `postmatter` with a scope and intent for each, and records **PCM** (Persistence, Coherecy, Minimalism) in relation to **SC, SI, RR** without asserting one-to-one equivalence.
+
+**Standing:** Emerging local minimum standard; **`_default` is not yet implemented**. This pointer does not alter the existing `default.html`, `_blank`, Shoreline, or Harmonia layouts, or claim external standardization of these properties.
+
 ## Official programme mark
 
 The supplied PortusSophia programme mark remains the official mark.
