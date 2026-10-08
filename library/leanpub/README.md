@@ -1,7 +1,7 @@
 ---
 title: "PortusSophia™ Library — Leanpub Books"
 identifier: "PS-LIBRARY-LEANPUB-README"
-version: "0.2-rough-draft"
+version: "0.3-rough-draft"
 date: "2026-10-08"
 document_status: "ROUGH DRAFT"
 standing: "INVESTIGATIONAL / NON-CANONICAL / NON-GOVERNING / NOT ADOPTED"
@@ -14,7 +14,7 @@ book_inventory_status: "LOCAL DRIVE FOLDER SURVEYED / PUBLISHED DASHBOARD STILL 
 
 # PortusSophia™ Library — Leanpub Books
 
-**Rough draft v0.1 — for examination, not adoption.**
+**Rough draft v0.3 — for examination, not adoption.**
 
 ## Forum/theatre for fellowship
 
@@ -87,6 +87,12 @@ The following original Drive files have been staged as exact-byte copies in the 
 
 The source Drive folder also contains complete PDFs, working manuscripts, multiple revisions, internal reviews, an archive, a video recording, and duplicated filenames. Those have **not** been copied into this publicly accessible repository by this batch, because their distribution and version roles are not yet distinguished. The sample designation is taken from each source filename and, for the PDFs examined, the visible sample content. This batch does not assert which complete edition is currently offered through Leanpub.
 
+## Architect-directed Drive Collection intake — seven files
+
+The [Drive `Collection` receipt](collection/README.md) now contains all seven source PDF representations from the specifically requested Drive folder, separate from the earlier three samples and the unmodified *Contemplation* cover. Six originals are available as direct Git files. The seventh, `Epistemology-Equanimity_Harmonia-View.pdf`, is preserved as five exact binary parts with documented reconstruction and SHA-256 verification because a single-file transfer exceeded the connector's reliable upload capacity.
+
+**All seven are NON-CANONICAL in this library.** Source-folder membership is not a determination that an edition is current on Leanpub, finished, or independently certified as published.
+
 ## Books yet to be received
 
 The complete published-book inventory remains to be reconciled with the authenticated Leanpub dashboard. For each book received later, possible observations include title, book link, author-side workspace link where appropriate, extant edition(s), publication/distribution history, manuscript/workspace state, visual template, and express standing.
@@ -107,7 +113,7 @@ These are prompts for observation, **not a compulsory form or a predetermined cl
 
 Await the Architect's next Leanpub book references, representations, or inventory. Preserve each item's own provenance, development state, and dissemination without merging the Leanpub and SSRN collections.
 
-**Current disposition:** Four public-facing source assets (three explicit samples and the existing *Contemplation* cover) have been copied into this repository; the remaining Drive collection awaits title/version/dissemination review. No formal seal or canonical standing is implied.
+**Current disposition:** Four earlier public-facing assets plus the expressly designated seven-source-file Drive Collection are preserved. The other working folders, manuscript revisions, reviews, and archives remain outside this public intake. No formal seal or canonical standing is implied.
 
 ---
 
