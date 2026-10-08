@@ -66,6 +66,8 @@ Every adopting site retains local copies of `_layouts`, `_includes`, and `_data`
 
 ## viewportmatter — emerging local template standard
 
+The [**Assets viewport accounting README**](templates/jekyll/v1/docs/viewportmatter/assets-viewport-readme.md) records the Architect's five emerging viewport loci—Ubi, Via, Lex, Doctrinal, and Sensua—their distinct responsibilities, proposed extensions, and the investigational **Pentatic (?) / SC, SI, RR** question. It is a working accounting, not an implementation claim.
+
 The [**PortusSophia viewport-matter specification**](templates/jekyll/v1/docs/viewportmatter/ps-viewport-matter.md) records the Architect-directed **PortusSophia™ viewport-matter TRI**. The earlier `_default`-scoped minimum specification is retained separately under a `.deprecated` file extension.
 
 It declares `frontmatter`, `bodymatter`, and `postmatter` with a scope and intent for each, and records **PCM** (Persistence, Coherecy, Minimalism) in relation to **SC, SI, RR** without asserting one-to-one equivalence.
