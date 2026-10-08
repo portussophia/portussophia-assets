@@ -1,7 +1,7 @@
 ---
 title: "PortusSophia™ Library — README"
 identifier: "PS-LIBRARY-README"
-version: "0.6-rough-draft"
+version: "0.7-rough-draft"
 document_status: "DRAFT"
 standing: "NON-CANONICAL / NON-GOVERNING / NOT ADOPTED"
 intended_repository: "portussophia/portussophia-assets"
@@ -30,6 +30,8 @@ date: "2026-10-08"
 > ---
 >
 > Principle, Practice, Posture may or may not be mutually inclusive, exclusive and/or neither.
+>
+> Library as surface where path, paths & traversal may or may not reveal distinction.
 >
 > For more information: [PortusSophia™ — The Declared Interface, Fellowship, and Provenance](https://figshare.com/projects/PortusSophia_The_Declared_Interface_Fellowship_and_Provenance/281647)
 
@@ -159,6 +161,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 ## Draft revision note
 
+- **v0.7 rough draft (2026-10-08):** Added the Architect's provisional billboard line about the library as a surface where path, paths & traversal may or may not reveal distinction; no change to governing standing.
 - **v0.6 rough draft (2026-10-08):** Completed byte-preserving GitHub deposit of the 11 SSRN PDF representations; a separate formal seal is pending with the other Peter roles. The library orientation remains rough-draft and non-governing.
 - **v0.5 rough draft (2026-10-08):** Recorded all eleven SSRN PDF sources received, the Architect’s scope-limited Distributed + Canonical designations, and the separate outstanding task of binary deposition; linked the SSRN inventory and checksums.
 - **v0.4 rough draft (2026-10-08):** Refined the conditional foyer inscription to preserve the Architect’s exact wording, “mutually inclusive, exclusive and/or neither.” Added a closing separator after the existing Faith — Fellowship — Joy / Here and Now! lines; standing unchanged.
