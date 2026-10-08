@@ -70,7 +70,9 @@ The [**viewportmatter minimum specification v0.1**](templates/jekyll/v1/docs/vie
 
 It declares `frontmatter`, `bodymatter`, and `postmatter` with a scope and intent for each, and records **PCM** (Persistence, Coherecy, Minimalism) in relation to **SC, SI, RR** without asserting one-to-one equivalence.
 
-**Standing:** Emerging local minimum standard; **`_default` is not yet implemented**. This pointer does not alter the existing `default.html`, `_blank`, Shoreline, or Harmonia layouts, or claim external standardization of these properties.
+**Standing:** Emerging local minimum standard; **`_default` is not yet implemented**.
+The [`ps_default` initialization record](templates/jekyll/v1/docs/viewportmatter/PS-DEFAULT-INITIALIZATION_v0_1.md) now identifies a **new, opt-in child layout stub** intended to inherit from `_default`. Its front/body/post matter content is **not yet specified**; `_default` remains unimplemented, so the chain is not yet render-ready.
+ This pointer does not alter the existing `default.html`, `_blank`, Shoreline, or Harmonia layouts, or claim external standardization of these properties.
 
 ## Official programme mark
 

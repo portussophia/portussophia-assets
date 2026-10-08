@@ -90,6 +90,10 @@ An additive `_blank` layout now provides a neutral viewport-aware foundation for
 
 See [`docs/BLANK-BASELINE.md`](docs/BLANK-BASELINE.md) for inheritance, placeholder configuration, and verification boundaries. The canonical shell manifest and contract have not been reclassified by this additive baseline.
 
+## ps_default — initialized child of proposed _default
+
+[`ps_default`](./_layouts/ps_default.html) is an **additive, opt-in layout stub** declaring `layout: _default`, retaining the Architect's layered PCM direction. The intended parent `_default` remains a [viewportmatter minimum specification](docs/viewportmatter/PS-MINSPEC-DEFAULT-VIEWPORT-MATTER-TRI_v0_1.md), **not an implemented layout**. The `ps_default` [initialization record](docs/viewportmatter/PS-DEFAULT-INITIALIZATION_v0_1.md) holds frontmatter/bodymatter/postmatter content open for later discussion. No existing layouts, brand variants, or adopted-site behavior are changed. Until the parent is implemented, the three-layer inheritance chain cannot be considered build-verified.
+
 ## Adoption rule
 
 Copy the template files into a site repository through a reviewed commit or pull request. Do not automatically overwrite local templates. Any local divergence must be documented as a deliberate override.
