@@ -52,6 +52,14 @@ The TRI does not require population of every region, establish a geometric parti
 
 No correspondence is established between Fixed / Fluid / Responsive / Adaptive / Reflowable and Eucleic / Geodesic / Geometric / Pedagogical / Ordinal. Any analogy remains investigational.
 
+
+## Investigational carry pointer — here be dragons
+
+[LOGOS's reflection on carry across tool boundaries and success-criterion saliency](https://docs.google.com/document/d/1YUI9heTEhkjYtM-u4OpiIzP200NWdHuPi8cXpk35P2o/edit) distinguishes **semantic**, **operational**, and **verification** carry as candidate research relations; it does **not** establish their identity or prescribe a protocol. Carry may remain available while operational saliency degrades.
+
+**Here be dragons:** no correspondence is presently established between those three carry relations and viewport-matter `frontmatter`, `bodymatter`, or `postmatter`. This pointer preserves the research question; it does not impose a locality standard, carry mechanism, validation obligation, or implementation.
+
+
 ## Implementation boundary
 
 This file does not replace or rename `PS-MINSPEC-DEFAULT-VIEWPORT-MATTER-TRI_v0_1.md`. The original `_default`-scoped minimum specification remains separately preserved. This document does not implement `_default` or alter `default.html`, `_blank`, Shoreline, or Harmonia. Publication, testing, and wider adoption are separate acts.
