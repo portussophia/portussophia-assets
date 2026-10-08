@@ -66,7 +66,7 @@ Every adopting site retains local copies of `_layouts`, `_includes`, and `_data`
 
 ## viewportmatter — emerging local template standard
 
-The [**viewportmatter minimum specification v0.1**](templates/jekyll/v1/docs/viewportmatter/PS-MINSPEC-DEFAULT-VIEWPORT-MATTER-TRI_v0_1.md) records the Architect-directed, locally scoped **PortusSophia™ viewport-matter TRI** for a proposed `_default` layout layered over `_blank`.
+The [**viewport-matter parent specification**](templates/jekyll/v1/docs/viewportmatter/viewport-matter.md) records the Architect-directed **PortusSophia™ viewport-matter TRI**. The earlier `_default`-scoped minimum specification is retained separately under a `.deprecated` file extension.
 
 It declares `frontmatter`, `bodymatter`, and `postmatter` with a scope and intent for each, and records **PCM** (Persistence, Coherecy, Minimalism) in relation to **SC, SI, RR** without asserting one-to-one equivalence.
 
