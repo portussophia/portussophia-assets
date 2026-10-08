@@ -1,7 +1,7 @@
 ---
 title: "PortusSophia™ Library — README"
 identifier: "PS-LIBRARY-README"
-version: "0.2-rough-draft"
+version: "0.3-rough-draft"
 document_status: "DRAFT"
 standing: "NON-CANONICAL / NON-GOVERNING / NOT ADOPTED"
 intended_repository: "portussophia/portussophia-assets"
@@ -18,6 +18,22 @@ date: "2026-10-08"
 # PortusSophia™ Library
 
 **Repository navigation:** [Return to portussophia-assets README](../README.md).
+
+## Possible foyer — provisional billboard
+
+> **Should this library have a foyer and a single billboard, let it read, for now...**
+>
+> **When change conditions change,**  
+> **the standard is the standard is the standard,**  
+> **else paradox.**
+>
+> ---
+>
+> Principle, Practice, Posture may or may not be mutually exclusive.
+>
+> For more information: [PortusSophia™ — The Declared Interface, Fellowship, and Provenance](https://figshare.com/projects/PortusSophia_The_Declared_Interface_Fellowship_and_Provenance/281647)
+
+*Originating expression: James Roy Dennis. This is a conditional, provisional inscription, not a requirement to construct a foyer or to adopt the statement as governing policy.*
 
 ## Starting point
 
@@ -137,6 +153,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 ## Draft revision note
 
+- **v0.3 rough draft (2026-10-08):** Included the Architect's conditional, provisional foyer billboard inscription as a Markdown banner with the Figshare project reference; no physical foyer, standing, or governing standard established.
 - **v0.2 rough draft (2026-10-08):** Added the Architect's consideration that a Post-it note may or may not receive the same level of consideration as a properly rendered book. The addition preserves contextual assessment without equating format, attention, and standing.
 - **v0.1 rough draft:** Original five-section reception and provisional VERN orientation retained without overwrite.
 
