@@ -1,7 +1,7 @@
 ---
 title: "PortusSophia™ Library — README"
 identifier: "PS-LIBRARY-README"
-version: "0.4-rough-draft"
+version: "0.5-rough-draft"
 document_status: "DRAFT"
 standing: "NON-CANONICAL / NON-GOVERNING / NOT ADOPTED"
 intended_repository: "portussophia/portussophia-assets"
@@ -10,7 +10,7 @@ originating_direction: "James Roy Dennis"
 draft_rendering: "PeterGate"
 researcher_orcid: "https://orcid.org/0009-0000-6689-8763"
 vern_alignment: "PENDING — labels not yet verified against VERN"
-asset_inventory: "PENDING — initial representations not yet received"
+asset_inventory: "SSRN — 11 source PDFs received / GitHub binary deposit pending"
 repository_write_status: "PLACED AS ROUGH DRAFT / NOT ADOPTED"
 date: "2026-10-08"
 ---
@@ -46,6 +46,12 @@ The library's initial contents will be considered as they are received. A propos
 **Researcher reference:** [ORCID 0009-0000-6689-8763](https://orcid.org/0009-0000-6689-8763).
 
 The ORCID identifies the researcher associated with this library effort. It does not automatically establish authorship, contribution, or authority for every item that may be included.
+
+## First received collection — SSRN (11/11)
+
+The Architect has supplied eleven PDF representations coupled in the documents to the researcher ORCID. He designates these **Distributed + Canonical within the library**. The [SSRN intake inventory](ssrn/README.md) records exact source filenames, work titles, SSRN identifiers, and a [SHA-256 receipt](ssrn/SHA256SUMS).
+
+**Reception is complete; GitHub binary deposition is not.** All eleven PDFs remain available as the supplied local source files. Their bytes have **not** yet been uploaded to this repository; no repo-hosted PDF links or verified SSRN-to-GitHub identity are claimed. The index is an inspectable reception record, not automatic admission to governing authority.
 
 ## Five initial sections
 
@@ -153,6 +159,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 ## Draft revision note
 
+- **v0.5 rough draft (2026-10-08):** Recorded all eleven SSRN PDF sources received, the Architect’s scope-limited Distributed + Canonical designations, and the separate outstanding task of binary deposition; linked the SSRN inventory and checksums.
 - **v0.4 rough draft (2026-10-08):** Refined the conditional foyer inscription to preserve the Architect’s exact wording, “mutually inclusive, exclusive and/or neither.” Added a closing separator after the existing Faith — Fellowship — Joy / Here and Now! lines; standing unchanged.
 - **v0.3 rough draft (2026-10-08):** Included the Architect's conditional, provisional foyer billboard inscription as a Markdown banner with the Figshare project reference; no physical foyer, standing, or governing standard established.
 - **v0.2 rough draft (2026-10-08):** Added the Architect's consideration that a Post-it note may or may not receive the same level of consideration as a properly rendered book. The addition preserves contextual assessment without equating format, attention, and standing.
@@ -163,8 +170,8 @@ The five-section intention is received. Its implementation and each item's stand
 | Matter | Current record |
 | --- | --- |
 | VERN definition or nomenclature | `[VERN-SOURCE-LINK-PENDING]` |
-| Initial asset set | `[AWAITING-ASSETS]` |
-| Item-level inventories and provenance | `[NOT-YET-ESTABLISHED]` |
+| Initial asset set | SSRN collection: **11/11 original PDFs received locally; binary repository deposit pending** |
+| Item-level inventories and provenance | [SSRN intake](ssrn/README.md) and [SHA-256 manifest](ssrn/SHA256SUMS); GitHub PDF blobs pending |
 | Library README location in repository | `library/README.md` — placed as rough draft |
 | Review or adoption decision | `[NOT-YET-RECORDED]` |
 
@@ -172,7 +179,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 **DRAFT — FOR EXAMINATION / NO AUTOMATIC INCORPORATION.**
 
-The present README has been placed in `library/` as a rough draft and cross-linked from the repository root README. No initial library assets or five-section folder hierarchy are created by this documentation operation. Placement and linking do not alter the draft’s non-canonical standing.
+The present README has been placed in `library/` as a rough draft and cross-linked from the repository root README. No initial library PDF binaries or five-section folder hierarchy are created by this documentation operation. Eleven PDF sources have been received and recorded, but their byte-preserving repository deposit remains pending. Placement and linking do not alter the draft’s non-canonical standing.
 
 *Faith — Fellowship — Joy*—  
 *Here and Now!*
