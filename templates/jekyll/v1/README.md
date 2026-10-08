@@ -92,7 +92,7 @@ See [`docs/BLANK-BASELINE.md`](docs/BLANK-BASELINE.md) for inheritance, placehol
 
 ## ps_default — initialized child of proposed _default
 
-[`ps_default`](./_layouts/ps_default.html) is an **additive, opt-in layout stub** declaring `layout: _default`, retaining the Architect's layered PCM direction. The intended parent `_default` remains a [viewportmatter minimum specification](docs/viewportmatter/PS-MINSPEC-DEFAULT-VIEWPORT-MATTER-TRI_v0_1.md), **not an implemented layout**. The `ps_default` [initialization record](docs/viewportmatter/PS-DEFAULT-INITIALIZATION_v0_1.md) holds frontmatter/bodymatter/postmatter content open for later discussion. No existing layouts, brand variants, or adopted-site behavior are changed. Until the parent is implemented, the three-layer inheritance chain cannot be considered build-verified.
+[`ps_default`](./_layouts/ps_default.html) is an **additive, opt-in layout stub** declaring `layout: _default`, retaining the Architect's layered PCM direction. The [viewport-matter parent specification](docs/viewportmatter/viewport-matter.md) is now recorded. The intended layout parent `_default` remains **unimplemented**. The `ps_default` [initialization record](docs/viewportmatter/PS-DEFAULT-INITIALIZATION_v0_1.md) holds frontmatter/bodymatter/postmatter content open for later discussion. No existing layouts, brand variants, or adopted-site behavior are changed. Until the parent is implemented, the three-layer inheritance chain cannot be considered build-verified.
 
 ## Adoption rule
 
