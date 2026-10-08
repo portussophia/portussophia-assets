@@ -1,7 +1,7 @@
 ---
 title: "PortusSophia™ Library — README"
 identifier: "PS-LIBRARY-README"
-version: "0.3-rough-draft"
+version: "0.4-rough-draft"
 document_status: "DRAFT"
 standing: "NON-CANONICAL / NON-GOVERNING / NOT ADOPTED"
 intended_repository: "portussophia/portussophia-assets"
@@ -29,7 +29,7 @@ date: "2026-10-08"
 >
 > ---
 >
-> Principle, Practice, Posture may or may not be mutually exclusive.
+> Principle, Practice, Posture may or may not be mutually inclusive, exclusive and/or neither.
 >
 > For more information: [PortusSophia™ — The Declared Interface, Fellowship, and Provenance](https://figshare.com/projects/PortusSophia_The_Declared_Interface_Fellowship_and_Provenance/281647)
 
@@ -153,6 +153,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 ## Draft revision note
 
+- **v0.4 rough draft (2026-10-08):** Refined the conditional foyer inscription to preserve the Architect’s exact wording, “mutually inclusive, exclusive and/or neither.” Added a closing separator after the existing Faith — Fellowship — Joy / Here and Now! lines; standing unchanged.
 - **v0.3 rough draft (2026-10-08):** Included the Architect's conditional, provisional foyer billboard inscription as a Markdown banner with the Figshare project reference; no physical foyer, standing, or governing standard established.
 - **v0.2 rough draft (2026-10-08):** Added the Architect's consideration that a Post-it note may or may not receive the same level of consideration as a properly rendered book. The addition preserves contextual assessment without equating format, attention, and standing.
 - **v0.1 rough draft:** Original five-section reception and provisional VERN orientation retained without overwrite.
@@ -175,3 +176,5 @@ The present README has been placed in `library/` as a rough draft and cross-link
 
 *Faith — Fellowship — Joy*—  
 *Here and Now!*
+
+---
