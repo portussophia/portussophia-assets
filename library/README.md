@@ -1,7 +1,7 @@
 ---
 title: "PortusSophia™ Library — README"
 identifier: "PS-LIBRARY-README"
-version: "0.7-rough-draft"
+version: "0.8-rough-draft"
 document_status: "DRAFT"
 standing: "NON-CANONICAL / NON-GOVERNING / NOT ADOPTED"
 intended_repository: "portussophia/portussophia-assets"
@@ -126,6 +126,15 @@ The appropriate level and kind of consideration remain local to the artifact, it
 
 This is an **architectural consideration for library reception**, not a scoring system, prescribed review effort, or obligation to treat unlike artifacts uniformly.
 
+## Open consideration — Schema Epistemics and meta-participation
+
+**Originating expression: Architect**  
+**Standing: INVESTIGATIONAL / NON-GOVERNING / NOT ADOPTED**
+
+> Schema Epistemics may or may not provide a relationally regimented means by way of meta-participation (meta-engagement≅_≅meta-agreement).
+
+This is preserved as an open library consideration, not an established exchange mechanism, adopted content designation, required participation, or specification. The notation is retained as supplied without determining its relational interpretation or assigning equivalence.
+
 ## VERN terminology — pending verification
 
 The Architect has requested that the five designations be checked against **VERN** for proper labeling of refinement and status.
@@ -161,6 +170,7 @@ The five-section intention is received. Its implementation and each item's stand
 
 ## Draft revision note
 
+- **v0.8 rough draft (2026-10-08):** Integrated the Architect's open Schema Epistemics / meta-participation note; no implementation, definition, or governing standing established.
 - **v0.7 rough draft (2026-10-08):** Added the Architect's provisional billboard line about the library as a surface where path, paths & traversal may or may not reveal distinction; no change to governing standing.
 - **v0.6 rough draft (2026-10-08):** Completed byte-preserving GitHub deposit of the 11 SSRN PDF representations; a separate formal seal is pending with the other Peter roles. The library orientation remains rough-draft and non-governing.
 - **v0.5 rough draft (2026-10-08):** Recorded all eleven SSRN PDF sources received, the Architect’s scope-limited Distributed + Canonical designations, and the separate outstanding task of binary deposition; linked the SSRN inventory and checksums.
