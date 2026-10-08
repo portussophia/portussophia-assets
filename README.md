@@ -100,6 +100,10 @@ The current controlled brand package is **v0.2**.
 
 Do not overwrite official mark references, canonical stylesheet sources, or canonical templates without a separate release decision.
 
+## Emerging PortusSophia™ Library
+
+The [PortusSophia™ Library README](library/README.md) is an **initial rough draft**, not adopted or canonical library documentation. It begins with existing representations and describes five proposed, potentially overlapping sections: Sandbox, Draft, Distributed, Published, and Canonical. Their terminology remains pending VERN verification. Library orientation does not change this repository’s role as a shared static-asset origin.
+
 ## Rights and use
 
 Copyright © 2026 PortusSophia, LLC. All rights reserved.
