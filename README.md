@@ -72,6 +72,8 @@ The [**Assets viewport accounting README**](templates/jekyll/v1/docs/viewportmat
 
 The [**PortusSophia viewport-matter specification**](templates/jekyll/v1/docs/viewportmatter/ps-viewport-matter.md) records the Architect-directed **PortusSophia™ viewport-matter TRI**. The earlier `_default`-scoped minimum specification is retained separately under a `.deprecated` file extension.
 
+**Dora & Carmen Bank provenance pointer:** [PortusLamina deposit reference record](https://github.com/portussophia/portussophia-lamina/blob/main/_work/deposits/PS-DEP-PS-VIEWPORT-MATTER-001.md) records the current **unsealed / reference recorded / no incorporation** standing of `ps-viewport-matter.md`; it does not establish Bank acceptance, verification, seal, or incorporation.
+
 It declares `frontmatter`, `bodymatter`, and `postmatter` with a scope and intent for each, and records **PCM** (Persistence, Coherecy, Minimalism) in relation to **SC, SI, RR** without asserting one-to-one equivalence.
 
 **Standing:** Emerging local minimum standard; **`_default` is not yet implemented**.
