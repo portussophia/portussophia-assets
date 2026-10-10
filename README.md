@@ -60,7 +60,7 @@ templates/jekyll/v1/
 
 It standardizes the navy sailcloth header, gold lower header boundary, enlarged gold anchor navigation control, canonical favicon integration, accessible single-source navigation, and three-row footer architecture.
 
-`public.portussophia.com` is the reference implementation and initial extraction source. After harmonization, the files in this repository are canonical for the shared shell. Public remains canonical for Public-specific content and composition.
+[`public.portussophia.com`](https://public.portussophia.com/) is the reference implementation and initial extraction source. After harmonization, the files in this repository are canonical for the shared shell. Public remains canonical for Public-specific content and composition.
 
 Every adopting site retains local copies of `_layouts`, `_includes`, and `_data`. Adoption and later synchronization occur through reviewed commits rather than automatic overwrites.
 
