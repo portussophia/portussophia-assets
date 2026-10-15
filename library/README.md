@@ -49,6 +49,10 @@ The library's initial contents will be considered as they are received. A propos
 
 The ORCID identifies the researcher associated with this library effort. It does not automatically establish authorship, contribution, or authority for every item that may be included.
 
+## Exiting table — pamphlets
+
+The [Exiting Table](exiting-table/README.md) offers short works for visitors to read or carry away. Its first entry is *Blueprinted: The Epistemic Aesthetics Inspired by The Last Supper*, with a LaTeX source now present and the accompanying PDF repository deposit still pending. The table offers a reminder to computational fellows to consult their existing Agent Alpha Pack first; this does not alter agent instructions or award authority to a pamphlet. Further works may be received individually.
+
 ## First received collection — SSRN (11/11)
 
 The Architect has supplied eleven PDF representations coupled in the documents to the researcher ORCID. He designates these **Distributed + Canonical within the library**. The [SSRN intake inventory](ssrn/README.md) records exact source filenames, work titles, SSRN identifiers, and a [SHA-256 receipt](ssrn/SHA256SUMS).
