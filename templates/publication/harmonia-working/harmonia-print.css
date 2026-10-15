@@ -1,0 +1,139 @@
+/* Harmonia working publication / PRINT v0.1 — 2026-10-14
+ * EXPERIMENTAL: not the active Jekyll Harmonia header, not integrated with
+ * PortusSophia's emerging extensibility/accessibility/responsive standard.
+ * Apply to expressly marked book HTML; do not retrofit old manuscripts silently.
+ */
+@page {
+  size: 6in 9in;
+  margin: 0.62in 0.56in 0.67in 0.56in;
+}
+@page ps-harmonia-cover {
+  size: 6in 9in;
+  margin: 0;
+}
+:root {
+  --harmonia-navy: #0b2943;
+  --harmonia-ink: #142b3c;
+  --harmonia-gold: #d2a24a;
+  --harmonia-light-gold: #e2c98f;
+  --harmonia-paper: #fff;
+}
+html, body { background: var(--harmonia-paper); }
+body {
+  color: var(--harmonia-ink);
+  font-family: Georgia, "DejaVu Serif", serif;
+  font-size: 10.5pt;
+  line-height: 1.43;
+  overflow-wrap: normal;
+}
+p { margin: 0 0 0.60em; orphans: 3; widows: 3; }
+h1, h2, h3, h4 {
+  color: var(--harmonia-navy);
+  font-family: Georgia, "DejaVu Serif", serif;
+  line-height: 1.24;
+  break-after: avoid-page;
+  page-break-after: avoid;
+  break-inside: avoid;
+}
+h1 {
+  font-size: 16pt;
+  margin: 1.0em 0 0.45em;
+  padding-bottom: 0.20em;
+  border-bottom: 1.25pt solid var(--harmonia-gold);
+  /* Intentionally NO automatic break-before here. */
+}
+h2 { font-size: 12.5pt; margin: 0.9em 0 0.45em; }
+h3 { font-size: 11pt; margin: 0.8em 0 0.38em; }
+h1 + p, h2 + p, h3 + p, h4 + p {
+  orphans: 3;
+  widows: 3;
+}
+strong { color: var(--harmonia-navy); }
+a { color: #285576; }
+
+/* Cover: contain canonical art in a 6x9 page without distortion.
+   Does not assert that a square Harmonia web identity is a 2:3 book cover.
+   The reference image must be visually confirmed by the Architect. */
+.ps-harmonia-cover {
+  page: ps-harmonia-cover;
+  box-sizing: border-box;
+  width: 6in;
+  height: 9in;
+  margin: 0;
+  padding: 0;
+  background: #061827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  break-after: page;
+  page-break-after: always;
+}
+.ps-harmonia-cover-image,
+.ps-harmonia-protected-art {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform: none;
+}
+
+/* Expressly grouped Part + Chapter opening, NOT long chapter body. */
+.ps-harmonia-opening {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+.ps-harmonia-part-label {
+  color: var(--harmonia-navy);
+  font-weight: 700;
+  font-size: 11.5pt;
+  margin: 0 0 0.40em;
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+.ps-harmonia-opening h1 { margin-top: 0.15em; }
+.ps-harmonia-new-page {
+  break-before: page;
+  page-break-before: always;
+}
+/* Use these only for specifically marked SHORT pieces; long-block
+   no-break rules may produce near-empty pages. */
+.ps-harmonia-keep-together {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.ps-harmonia-keep-with-next {
+  break-after: avoid-page;
+  page-break-after: avoid;
+}
+blockquote {
+  border-left: 2.5pt solid var(--harmonia-gold);
+  padding: 0.55em 0.75em;
+  margin: 0.8em 0;
+  background: #fffdf8;
+}
+blockquote p:last-child { margin-bottom: 0; }
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 8.5pt;
+  line-height: 1.35;
+  margin: 0.75em 0;
+  /* No unconditional keep-together for potentially long code. */
+}
+.ps-harmonia-short-distinction {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+img, svg { max-width: 100%; height: auto; }
+/* Opt-in only after Architect discussion: no automatic selection of text. */
+.ps-harmonia-approved-panel {
+  color: #f6e7c6;
+  background: var(--harmonia-navy);
+  border: 1pt solid var(--harmonia-gold);
+  padding: 0.8em 0.9em;
+}
