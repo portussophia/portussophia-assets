@@ -118,6 +118,12 @@ The current controlled brand package is **v0.2**.
 
 Do not overwrite official mark references, canonical stylesheet sources, or canonical templates without a separate release decision.
 
+## Harmonia — current working book-publication template (not yet integrated)
+
+The [Harmonia working publication template](templates/publication/harmonia-working/README.md) is the current **working / experimental book-template reference** for print PDF and reflowable EPUB/HTML. It records proportion-preserving canonical-art placement, more readable print measure, deliberately grouped Part/Chapter openings, explicit short-block keep-together controls, and a review boundary before elevating individual passages. Its [print](templates/publication/harmonia-working/harmonia-print.css) and [reflow](templates/publication/harmonia-working/harmonia-reflow.css) styles are separate, provisional starting points—not verified book editions or a replacement for the existing Harmonia Jekyll header.
+
+**Integration boundary:** This working book template is **not yet integrated** into PortusSophia™'s emerging extensibility, accessibility, and responsive/viewport-matter standard. It is not an adopted canonical publication specification and does not modify existing manuscripts, the official programme mark, deployed Jekyll variants, or the _blank layout. Visual and renderer testing, any expressive elevation, and further integration remain available for Architect review.
+
 ## Harmonia — base quarternic visual set
 
 The Architect-designated [Harmonia base quarternic set](brand/harmonia/README.md) supplies four related distribution images: [with-text identity](brand/harmonia/harmonia-with-text.png), [no-text emblem](brand/harmonia/harmonia-no-text.png), [multi-size favicon](brand/harmonia/favicon.ico), and [social-media image](brand/harmonia/harmonia-social-1200x630.png). The Harmonia header stylesheet now uses the **with-text asset from this set**, replacing its former opaque image reference. Its manifest includes checksums and intended alignment. The forthcoming [`brand-logo-readme.md`](brand/brand-logo-readme.md) is **only a placeholder**; this update does not silently replace the separately documented official programme-mark reference or the existing global favicon family.
