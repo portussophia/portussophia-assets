@@ -49,13 +49,12 @@ The library's initial contents will be considered as they are received. A propos
 
 The ORCID identifies the researcher associated with this library effort. It does not automatically establish authorship, contribution, or authority for every item that may be included.
 
-## Pamphlets, inquiry records, and Exiting Table
+## Pamphlets and Exiting Table
 
 - [Pamphlet sections](pamphlets/README.md): Blueprinted, The Weighted Phrase, and the separately identified Weighted Word reflection.
-- [Inquiry records](inquiry-records/README.md): META-EXHAUST and related exploratory materials.
 - [Exiting Table](exiting-table/README.md): short shelf index with subject cues and direct links to verified holdings.
 
-These are organizational pointers, not assignments of governing standing. The seven source assets supplied for intake are **not yet all deposited**: A-WEIGHTED-WORD.md is present; the other six uploads remain pending.
+These are organizational pointers, not assignments of governing standing. The Exiting Table is a three-shelf navigational constellation. A-WEIGHTED-WORD.md is deposited; other pamphlet representations remain pending. META-EXHAUST is held separately in the Architect's Sea of Ideas and is not included in this Library intake.
 
 ## First received collection — SSRN (11/11)
 
