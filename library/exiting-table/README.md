@@ -1,18 +1,28 @@
 # PortusSophia™ Library — Exiting Table
 
-[Library](../README.md) · [Pamphlet sections](../pamphlets/README.md) · [Inquiry records](../inquiry-records/README.md)
+[Return to Library](../README.md) · [Pamphlet shelves](../pamphlets/README.md)
 
-A place to encounter and carry away works. **Listing does not imply adoption, incorporation, or governing standing.** Shelf numbers are local Dewey-like subject cues, not official DDC assignments.
+An optional navigational constellation: three pamphlet-related shelves, each with its own README and separately identified representations. Visitors may follow any pointer in any order. **Navigation is not adoption, endorsement, incorporation, or governing authority.**
 
-| Local shelf | Work / section | Subject | Repository holdings |
+> Maybe this visit didn't provide what was sought or what you needed is not yet here.
+>
+> That happens and before you depart, please consider these pamphlets and take them with you so that journey and value may cross the orthogonal called opportunity with a new instrument by your side.
+
+*Architect's offered wording; possible exit inscription.*
+
+## Three shelves
+
+| Local subject cue | Shelf | Brief subject | Available representations |
 | --- | --- | --- | --- |
-| 100.1 | [Blueprinted](../pamphlets/blueprinted/README.md) | Epistemic aesthetics; necessary gap | TeX at this table; PDF pending |
-| 400.1 | [The Weighted Phrase](../pamphlets/weighted-phrase/README.md) | Language; rhetorical pressure | Markdown, TeX, PDF pending |
-| 400.2 | [Weighted Word reflection](../pamphlets/weighted-word/README.md) | Directional words; weighting | [A-WEIGHTED-WORD.md](A-WEIGHTED-WORD.md) deposited; original pamphlet not verified |
-| 000.1 | [Inquiry records](../inquiry-records/README.md) | Library thresholds; weighted language | META-EXHAUST Markdown pending |
+| 100.1 · Epistemic aesthetics | [**Blueprinted — The Epistemic Aesthetics Inspired by The Last Supper**](../pamphlets/blueprinted/README.md) | Necessary gap; composition; distinguishability | Source PDF/TeX received; individual shelf deposits pending |
+| 400.1 · Language / rhetoric | [**The Weighted Phrase**](../pamphlets/weighted-phrase/README.md) | Self-audition; rhetorical pressure; agency | Source Markdown/PDF/TeX received; individual shelf deposits pending |
+| 400.2 · Language / reflection | [**Weighted Word reflection**](../pamphlets/weighted-word/README.md) | Directional language; weighting | [Reflection deposited](A-WEIGHTED-WORD.md); not verified as an original pamphlet |
 
-The supplied files remain separate original representations. Source deposits will be linked only when verified in GitHub.
+These numbers are **local, Dewey-like cues**, not official Dewey Decimal Classification assignments. A representation is linked as a holding only when its GitHub deposit is verified. The constellation suggests possible encounters, not established conceptual relations or a required reading sequence.
 
-**Computational fellows:** consult your existing Agent Alpha Pack first.
+**Computational fellows:** check your existing Agent Alpha Pack first. This reminder does not amend agent instructions.
 
-*Faith — Fellowship — Joy. Here and Now!*
+---
+
+*Faith — Fellowship — Joy*—  
+*Here and Now!*
