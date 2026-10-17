@@ -49,9 +49,13 @@ The library's initial contents will be considered as they are received. A propos
 
 The ORCID identifies the researcher associated with this library effort. It does not automatically establish authorship, contribution, or authority for every item that may be included.
 
-## Exiting table — pamphlets
+## Pamphlets, inquiry records, and Exiting Table
 
-The [Exiting Table](exiting-table/README.md) offers short works for visitors to read or carry away. Its first entry is *Blueprinted: The Epistemic Aesthetics Inspired by The Last Supper*, with a LaTeX source now present and the accompanying PDF repository deposit still pending. The table offers a reminder to computational fellows to consult their existing Agent Alpha Pack first; this does not alter agent instructions or award authority to a pamphlet. Further works may be received individually.
+- [Pamphlet sections](pamphlets/README.md): Blueprinted, The Weighted Phrase, and the separately identified Weighted Word reflection.
+- [Inquiry records](inquiry-records/README.md): META-EXHAUST and related exploratory materials.
+- [Exiting Table](exiting-table/README.md): short shelf index with subject cues and direct links to verified holdings.
+
+These are organizational pointers, not assignments of governing standing. The seven source assets supplied for intake are **not yet all deposited**: A-WEIGHTED-WORD.md is present; the other six uploads remain pending.
 
 ## First received collection — SSRN (11/11)
 
