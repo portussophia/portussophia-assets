@@ -128,6 +128,14 @@ The [Harmonia working publication template](templates/publication/harmonia-worki
 
 The Architect-designated [Harmonia base quarternic set](brand/harmonia/README.md) supplies four related distribution images: [with-text identity](brand/harmonia/harmonia-with-text.png), [no-text emblem](brand/harmonia/harmonia-no-text.png), [multi-size favicon](brand/harmonia/favicon.ico), and [social-media image](brand/harmonia/harmonia-social-1200x630.png). The Harmonia header stylesheet now uses the **with-text asset from this set**, replacing its former opaque image reference. Its manifest includes checksums and intended alignment. The forthcoming [`brand-logo-readme.md`](brand/brand-logo-readme.md) is **only a placeholder**; this update does not silently replace the separately documented official programme-mark reference or the existing global favicon family.
 
+## Research preservation methodology — repository pointer
+
+The [PortusSophia™ research repository](https://github.com/portussophia/portussophia-research/tree/master) is more than a bibliography or document-format reference. Its [research doorway](https://github.com/portussophia/portussophia-research/blob/master/README.md) describes a **channel-agnostic research and legitimacy methodology** that preserves research momentum, evidence boundaries, provenance, and traceable promotion without treating distribution or presentation as authority.
+
+The repository distinguishes a **Research Lane** (Sandbox → Intake → Evidence → Registry → Products) from a **Distribution Lane** (public-facing outputs). Its [research specifications v2](https://github.com/portussophia/portussophia-research/blob/master/docs/research_specifications_v2.md) describe claim classes, warrant and provenance controls, snapshots, and release-boundary invariants. The [master bibliography registry](https://github.com/portussophia/portussophia-research/blob/master/registry/references_master.bib) is a maintained bibliographic source of truth *within* that larger methodology, not the methodology itself.
+
+The [research utilities interface](https://github.com/portussophia/portussophia-research/blob/master/UTILS.md) distinguishes a repository resource being **available**, **selected**, and **actually used** by an Inquiry; it requires bounded resolution and provenance while prohibiting automatic incorporation or write-back. These pointers are provided for orientation, not to copy the research methodology into this static-asset repository or to declare any manuscript, template, pagination rule, or publication authorized. Applicability to a particular presentation or document standard requires separate examination.
+
 ## Related PortusSophia repository
 
 The [PortusSophia primary repository](https://github.com/portussophia/portussophia) is a separate project surface. Its repository currently requires authorized GitHub access; this pointer does not make its contents public or import its authority into the asset origin.
