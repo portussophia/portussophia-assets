@@ -22,6 +22,14 @@ This working reference belongs to the developing **forum/theatre for fellowship*
 
 This README starts with links and distinctions **already supplied**, not with a presumed complete book collection. The phrase *forum/theatre for fellowship* is preserved as the Architect's wording; it is not a new governance category or a claim about access privileges.
 
+
+## Current Harmonia review and collection pointers
+
+- [*Significance — Epistemic Attachment*](significance/README.md) — local Harmonia v0.8 pre-publication review lineage; a **catalogue record only**, not yet a deposited manuscript or PDF and not verified as published.
+- [*Epistemology — Equanimity*](collection/README.md) — already received as the exact-byte PDF in the 2026-10-08 Leanpub Drive Collection intake, stored in five ordered parts with a reconstruction SHA-256 receipt. Its library presence does not independently establish Leanpub publication or canonical standing.
+
+These references preserve collection membership, technical provenance, and publication status as distinct questions.
+
 ## Leanpub as publisher and working space
 
 The Architect identifies Leanpub as both **a publisher** and **a working space**. A book may be available to readers while author-side work continues, but that general possibility must not be turned into a claim about the current development state of every particular book.
