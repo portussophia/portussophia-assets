@@ -60,5 +60,16 @@ Use the wrapper only where a new page and grouped opening are actually intended.
 - No modification to official logo/programme-mark assets, authorial manuscript, or previously distributed PDFs.
 - No automatic succession into a governing template. Review of successful visual examples and bounded implementation trials remain available before any broader adoption.
 
+
+## Optional library pointers — interpretive context, not template requirements
+
+The [Library Exiting Table](../../../library/exiting-table/README.md) offers three distinct reading pointers that may help editors notice what a presentation pass risks concealing. These references are **not** style rules, mandated steps, authorization to edit, or incorporation into this working template.
+
+- [*Blueprinted — The Epistemic Aesthetics Inspired by The Last Supper*](../../../library/pamphlets/blueprinted/README.md) — necessary gap, composition, distinguishability. Investigational/non-governing; source representations are described by its shelf but deposits remain pending.
+- [*The Weighted Phrase*](../../../library/pamphlets/weighted-phrase/README.md) — rhetoric, self-audition, and the possibility of collapsing embellishments through premature harmonization. Sara — Harmonization; investigational candidate/non-governing; shelf deposits pending.
+- [*Weighted Word* reflection](../../../library/pamphlets/weighted-word/README.md) — directional and jurisdictional force of words. Its [available reflection](../../../library/exiting-table/A-WEIGHTED-WORD.md) is **not** verified as an original pamphlet.
+
+The existing [Exiting Table](../../../library/exiting-table/README.md) remains the navigational source for those three references. Navigation ≠ adoption; reading ≠ implementation.
+
 *Faith — Fellowship — Joy*—  
 *Here and Now!*
