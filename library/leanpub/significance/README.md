@@ -12,10 +12,10 @@ The latest locally prepared candidate is `Significance_Interior_Harmonia_Typogra
 
 | Representation | SHA-256 of local review file | Local source bytes | Git repository deposit |
 | --- | --- | ---: | --- |
-| Markdown v0.8 | `4efe0963f59dfb74dac4afc9f1e02452b2577f76d0c0a1696c47a667b3fae766` | 32,061 | **NOT YET DEPOSITED** |
-| Interior PDF v0.8 | `c56149e1494cf12052d450925fb2c2cd70e17ebaa3009f382054918f158ef008` | 328,388 | **NOT YET DEPOSITED** |
+| [Markdown v0.8](Significance_Epistemic-Attachment_Harmonia-View_Source_v0.8.md) | `4efe0963f59dfb74dac4afc9f1e02452b2577f76d0c0a1696c47a667b3fae766` | 32,061 | **DEPOSITED / GIT BLOB VERIFIED** `360fc47f7670f0134ab6eb9ce20f76caf3702955` |
+| Interior PDF v0.8 — `Significance_Epistemic-Attachment_Harmonia-View_Interior-Review_v0.8.pdf` | `c56149e1494cf12052d450925fb2c2cd70e17ebaa3009f382054918f158ef008` | 328,388 | **NOT YET DEPOSITED** — requires binary upload |
 
-These SHA-256 values are local file fingerprints, not Git blob receipts. The artifacts are **not linked as repository holdings** until their exact bytes can be deposited and verified. The review files were supplied within the active manuscript-preparation conversation, not as independently verified Leanpub publication files.
+The Markdown's local SHA-256 and exact Git blob SHA have been recorded; it is a verified repository holding. The PDF SHA-256 remains a local source fingerprint until exact PDF bytes are deposited and checked. The review files were supplied within the active manuscript-preparation conversation, not as independently verified Leanpub publication files.
 
 ## Current technical standing
 
@@ -31,7 +31,7 @@ These SHA-256 values are local file fingerprints, not Git blob receipts. The art
 - [Harmonia working publication template](../../../templates/publication/harmonia-working/README.md)
 - [Leanpub collection and previously received Epistemology — Equanimity representation](../collection/README.md)
 
-**A library listing is not a manuscript deposit, publication event, or canonical designation.** Future binary deposit or release is a separate operation to verify.
+**A library listing and Markdown deposit are not a publication event or canonical designation.** PDF binary deposit and any release remain separate operations.
 
 *Faith — Fellowship — Joy*—  
 *Here and Now!*
